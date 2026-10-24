@@ -1,0 +1,2560 @@
+desc:Control Room (7.2.4 / 5.2 / Stereo A / Stereo B) + Per-Channel Bass Management + Headphones
+options:no_meter
+
+slider1:0<0,5,1{Monitor 1,Monitor 2,Monitor 3,Monitor 4,Monitor 5,Monitor 6}>-Monitor Selection
+slider2:0<0,1,1{Off,On}>-Dim
+slider3:-20<-60,0,0.5>-Dim Level (dB)
+slider4:0<0,1,1{Off,On}>-Mono
+slider5:0<0,1,1{Off,On}>-Mute
+slider6:-12<-60,6,0.1>-Control Room Level (dB)
+slider7:0<0,1,1{Off,On}>-Bass Management
+slider8:80<40,200,1>-XO All (GUI fader sets every channel)
+slider9:0<-24,12,0.5>-Bass Sub Level (dB)
+slider10:3<0,3,1{Both LFE (mono),LFE1 only,LFE2 only,Stereo (L to LFE1, R to LFE2)}>-Bass Sent To
+slider11:0<-12,12,0.5>-LFE Input Trim (dB)
+slider12:1<0,1,1{Off,On}>-BM L
+slider13:1<0,1,1{Off,On}>-BM R
+slider14:1<0,1,1{Off,On}>-BM C
+slider15:1<0,1,1{Off,On}>-BM Lss
+slider16:1<0,1,1{Off,On}>-BM Rss
+slider17:1<0,1,1{Off,On}>-BM Lrs
+slider18:1<0,1,1{Off,On}>-BM Rrs
+slider19:1<0,1,1{Off,On}>-BM Ltf
+slider20:1<0,1,1{Off,On}>-BM Rtf
+slider21:1<0,1,1{Off,On}>-BM Ltr
+slider22:1<0,1,1{Off,On}>-BM Rtr
+slider23:80<40,200,1>-XO L (Hz)
+slider24:80<40,200,1>-XO R (Hz)
+slider25:80<40,200,1>-XO C (Hz)
+slider26:80<40,200,1>-XO Lss (Hz)
+slider27:80<40,200,1>-XO Rss (Hz)
+slider28:80<40,200,1>-XO Lrs (Hz)
+slider29:80<40,200,1>-XO Rrs (Hz)
+slider30:80<40,200,1>-XO Ltf (Hz)
+slider31:80<40,200,1>-XO Rtf (Hz)
+slider32:80<40,200,1>-XO Ltr (Hz)
+slider33:80<40,200,1>-XO Rtr (Hz)
+slider34:1<1,12,1>-Monitor 1 Out Start
+slider35:1<1,18,1>-Monitor 2 Out Start
+slider36:1<1,23,1>-Monitor 3 Out Start
+slider37:17<1,23,1>-Monitor 4 Out Start
+slider38:1<0,1,1{Hidden,Shown}>-Bass Controls Section
+slider39:-20<-60,6,0.1>-Headphone Level (dB)
+slider40:0<0,12,1{MIX,CUE 1,CUE 2,CUE 3,CUE 4,CUE 5,CUE 6,EXT 1,EXT 2,EXT 3,EXT 4,EXT 5,EXT 6}>-Headphone Source
+slider41:1<0,1,1{Hidden,Shown}>-Headphone Section
+slider42:1<0,1,1{Hidden,Shown}>-Speaker Monitor Section
+slider43:1<0,1,1{Off,On}>-Speaker On L
+slider44:1<0,1,1{Off,On}>-Speaker On R
+slider45:1<0,1,1{Off,On}>-Speaker On C
+slider46:1<0,1,1{Off,On}>-Speaker On LFE1
+slider47:1<0,1,1{Off,On}>-Speaker On LFE2
+slider48:1<0,1,1{Off,On}>-Speaker On Lss
+slider49:1<0,1,1{Off,On}>-Speaker On Rss
+slider50:1<0,1,1{Off,On}>-Speaker On Lrs
+slider51:1<0,1,1{Off,On}>-Speaker On Rrs
+slider52:1<0,1,1{Off,On}>-Speaker On Ltf
+slider53:1<0,1,1{Off,On}>-Speaker On Rtf
+slider54:1<0,1,1{Off,On}>-Speaker On Ltr
+slider55:1<0,1,1{Off,On}>-Speaker On Rtr
+slider56:0<-60,6,0.1>-Cue 1 Level (dB)
+slider57:0<-60,6,0.1>-Cue 2 Level (dB)
+slider58:0<-60,6,0.1>-Cue 3 Level (dB)
+slider59:0<-60,6,0.1>-Cue 4 Level (dB)
+slider60:0<-60,6,0.1>-Cue 5 Level (dB)
+slider61:0<-60,6,0.1>-Cue 6 Level (dB)
+slider62:1<0,1,1{Hidden,Shown}>-Cue Sends Section
+slider63:0<0,12,1{MIX,CUE 1,CUE 2,CUE 3,CUE 4,CUE 5,CUE 6,EXT 1,EXT 2,EXT 3,EXT 4,EXT 5,EXT 6}>-Monitor Source
+slider64:0<0,1,1{Off,On}>-Cue 1 Talkback On
+slider65:0<0,1,1{Off,On}>-Cue 2 Talkback On
+slider66:0<0,1,1{Off,On}>-Cue 3 Talkback On
+slider67:0<0,1,1{Off,On}>-Cue 4 Talkback On
+slider68:0<0,1,1{Off,On}>-Cue 5 Talkback On
+slider69:0<0,1,1{Off,On}>-Cue 6 Talkback On
+slider70:0<-60,12,0.1>-Cue 1 Talkback Level (dB)
+slider71:0<-60,12,0.1>-Cue 2 Talkback Level (dB)
+slider72:0<-60,12,0.1>-Cue 3 Talkback Level (dB)
+slider73:0<-60,12,0.1>-Cue 4 Talkback Level (dB)
+slider74:0<-60,12,0.1>-Cue 5 Talkback Level (dB)
+slider75:0<-60,12,0.1>-Cue 6 Talkback Level (dB)
+slider76:0<0,1,1{Hidden,Shown}>-Cue 1 Section
+slider77:0<0,1,1{Hidden,Shown}>-Cue 2 Section
+slider78:0<0,1,1{Hidden,Shown}>-Cue 3 Section
+slider79:0<0,1,1{Hidden,Shown}>-Cue 4 Section
+slider80:0<0,1,1{Hidden,Shown}>-Cue 5 Section
+slider81:0<0,1,1{Hidden,Shown}>-Cue 6 Section
+slider82:1<0,1,1{Off,On}>-Cue 1 Source CUE
+slider83:0<0,1,1{Off,On}>-Cue 1 Source MIX
+slider84:0<0,1,1{Off,On}>-Cue 1 Source EXT 1
+slider85:0<0,1,1{Off,On}>-Cue 1 Source EXT 2
+slider86:0<0,1,1{Off,On}>-Cue 1 Source EXT 3
+slider87:1<0,1,1{Off,On}>-Cue 2 Source CUE
+slider88:0<0,1,1{Off,On}>-Cue 2 Source MIX
+slider89:0<0,1,1{Off,On}>-Cue 2 Source EXT 1
+slider90:0<0,1,1{Off,On}>-Cue 2 Source EXT 2
+slider91:0<0,1,1{Off,On}>-Cue 2 Source EXT 3
+slider92:1<0,1,1{Off,On}>-Cue 3 Source CUE
+slider93:0<0,1,1{Off,On}>-Cue 3 Source MIX
+slider94:0<0,1,1{Off,On}>-Cue 3 Source EXT 1
+slider95:0<0,1,1{Off,On}>-Cue 3 Source EXT 2
+slider96:0<0,1,1{Off,On}>-Cue 3 Source EXT 3
+slider97:1<0,1,1{Off,On}>-Cue 4 Source CUE
+slider98:0<0,1,1{Off,On}>-Cue 4 Source MIX
+slider99:0<0,1,1{Off,On}>-Cue 4 Source EXT 1
+slider100:0<0,1,1{Off,On}>-Cue 4 Source EXT 2
+slider101:0<0,1,1{Off,On}>-Cue 4 Source EXT 3
+slider102:1<0,1,1{Off,On}>-Cue 5 Source CUE
+slider103:0<0,1,1{Off,On}>-Cue 5 Source MIX
+slider104:0<0,1,1{Off,On}>-Cue 5 Source EXT 1
+slider105:0<0,1,1{Off,On}>-Cue 5 Source EXT 2
+slider106:0<0,1,1{Off,On}>-Cue 5 Source EXT 3
+slider107:1<0,1,1{Off,On}>-Cue 6 Source CUE
+slider108:0<0,1,1{Off,On}>-Cue 6 Source MIX
+slider109:0<0,1,1{Off,On}>-Cue 6 Source EXT 1
+slider110:0<0,1,1{Off,On}>-Cue 6 Source EXT 2
+slider111:0<0,1,1{Off,On}>-Cue 6 Source EXT 3
+slider112:-12<-60,0,0.5>-Cue 1 Talkback Dim (dB)
+slider113:-12<-60,0,0.5>-Cue 2 Talkback Dim (dB)
+slider114:-12<-60,0,0.5>-Cue 3 Talkback Dim (dB)
+slider115:-12<-60,0,0.5>-Cue 4 Talkback Dim (dB)
+slider116:-12<-60,0,0.5>-Cue 5 Talkback Dim (dB)
+slider117:-12<-60,0,0.5>-Cue 6 Talkback Dim (dB)
+slider118:1<0,1,1{Off,On}>-Cue 1 On
+slider119:1<0,1,1{Off,On}>-Cue 2 On
+slider120:1<0,1,1{Off,On}>-Cue 3 On
+slider121:1<0,1,1{Off,On}>-Cue 4 On
+slider122:1<0,1,1{Off,On}>-Cue 5 On
+slider123:1<0,1,1{Off,On}>-Cue 6 On
+slider124:1<0,1,1{Off,On}>-Cue 1 Talkback Dim On
+slider125:1<0,1,1{Off,On}>-Cue 2 Talkback Dim On
+slider126:1<0,1,1{Off,On}>-Cue 3 Talkback Dim On
+slider127:1<0,1,1{Off,On}>-Cue 4 Talkback Dim On
+slider128:1<0,1,1{Off,On}>-Cue 5 Talkback Dim On
+slider129:1<0,1,1{Off,On}>-Cue 6 Talkback Dim On
+slider130:-20<-60,6,0.1>-Studio Monitors Level (dB)
+slider131:0<0,12,1{MIX,CUE 1,CUE 2,CUE 3,CUE 4,CUE 5,CUE 6,EXT 1,EXT 2,EXT 3,EXT 4,EXT 5,EXT 6}>-Studio Monitors Source
+slider132:1<0,1,1{Hidden,Shown}>-Studio Monitors Section
+slider133:1<0,1,1{Off,On}>-Cue 1 Talkback Enabled
+slider134:1<0,1,1{Off,On}>-Cue 2 Talkback Enabled
+slider135:1<0,1,1{Off,On}>-Cue 3 Talkback Enabled
+slider136:1<0,1,1{Off,On}>-Cue 4 Talkback Enabled
+slider137:1<0,1,1{Off,On}>-Cue 5 Talkback Enabled
+slider138:1<0,1,1{Off,On}>-Cue 6 Talkback Enabled
+slider139:19<1,23,1>-Monitor 5 Out Start
+slider140:21<1,23,1>-Monitor 6 Out Start
+slider141:1<0,1,1{Hidden,Shown}>-Input Bus Section
+slider142:1<0,1,1{Hidden,Shown}>-Output Bus Section
+slider143:0<0,1,1{Off,On}>-Headphone Mute
+slider144:0<0,1,1{Off,On}>-Headphone Dim
+slider145:0<0,1,1{Off,On}>-Studio Monitors Mute
+slider146:0<0,1,1{Off,On}>-Studio Monitors Dim
+slider147:1<0,1,1{Hidden,Shown}>-Cues Section
+slider148:0<-60,6,0.1>-Cues Master Level (dB)
+slider149:1<1,64,1>-Plug-in In Start: MIX (13 ch)
+slider150:15<1,64,1>-Plug-in In Start: Talkback (mono)
+slider151:16<1,64,1>-Plug-in In Start: Listen (mono)
+slider175:17<1,64,1>-Plug-in In Start: Cue 1
+slider176:19<1,64,1>-Plug-in In Start: Cue 2
+slider177:21<1,64,1>-Plug-in In Start: Cue 3
+slider178:23<1,64,1>-Plug-in In Start: Cue 4
+slider179:25<1,64,1>-Plug-in In Start: Cue 5
+slider180:27<1,64,1>-Plug-in In Start: Cue 6
+slider153:29<1,64,1>-Plug-in In Start: EXT 1
+slider154:43<1,64,1>-Plug-in In Start: EXT 2
+slider155:45<1,64,1>-Plug-in In Start: EXT 3
+slider156:47<1,64,1>-Plug-in In Start: EXT 4
+slider157:49<1,64,1>-Plug-in In Start: EXT 5
+slider158:51<1,64,1>-Plug-in In Start: EXT 6
+slider187:14<1,14,1>-EXT 1 Channel Count
+slider188:2<1,14,1>-EXT 2 Channel Count
+slider189:2<1,14,1>-EXT 3 Channel Count
+slider190:2<1,14,1>-EXT 4 Channel Count
+slider191:2<1,14,1>-EXT 5 Channel Count
+slider192:2<1,14,1>-EXT 6 Channel Count
+slider160:15<1,64,1>-Plug-in Out Start: Headphones
+slider161:23<1,64,1>-Plug-in Out Start: Meter
+slider181:49<1,64,1>-Plug-in Out Start: Cue 1
+slider182:51<1,64,1>-Plug-in Out Start: Cue 2
+slider183:53<1,64,1>-Plug-in Out Start: Cue 3
+slider184:55<1,64,1>-Plug-in Out Start: Cue 4
+slider185:57<1,64,1>-Plug-in Out Start: Cue 5
+slider186:59<1,64,1>-Plug-in Out Start: Cue 6
+slider163:63<1,64,1>-Plug-in Out Start: Studio Monitors
+slider164:6<0,6,1>-Number of Cues
+slider165:6<0,6,1>-Number of EXT Inputs
+slider166:6<1,6,1>-Monitor Count (speaker sets)
+slider167:0<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 1 Format
+slider168:2<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 2 Format
+slider169:5<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 3 Format
+slider170:5<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 4 Format
+slider171:5<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 5 Format
+slider172:5<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Monitor 6 Format
+slider173:4<1,64,1>-Plug-in Out Start: Subs (Quad / Stereo monitors)
+slider174:0<0,5,1{7.2.4,7.1.4,5.2,5.1,Quad,Stereo}>-Main Mix Bus Format
+slider159:0<0,1,1{Hidden,Shown}>-Routing Section
+
+// Channel map (master track carries 64 channels). Matches 'Reaper Control Room Routing.xlsx'.
+// Inputs:
+//   1-13  : mix bus 1 (7.2.4)     15 : talkback bus (mono)      16 : listen bus (not used yet)
+//   17-28 : CUE 1-6 (stereo pairs)
+//   29-42 : EXT 1 (14 ch, the first pair 29/30 is used as its stereo feed)
+//   43-44 : EXT 2    45-46 : EXT 3    47-48 : EXT 4    49-50 : EXT 5    51-52 : EXT 6   (all stereo)
+// Outputs (hardware out = plugin output channel):
+//   1-13  : 7.2.4 / 5.2 (Mon 1)     1/2 also Stereo A (Mon 2)     15/16 : headphones (Phones)
+//   17/18 : Stereo B (Mon 3)        19/20 : Stereo C (Mon 4)      21/22 : Stereo D (Mon 5)
+//   23/24 : Meter L/R (the program as played by the main monitors, before their level / dim / mute)
+//   Stereo C and D put their subs on the same outputs as the 7.2.4 LFE channels (4 and 5)
+//   49-60 : CUE 1-6 (stereo pairs)    63-64 : studio monitors
+in_pin:i1
+in_pin:i2
+in_pin:i3
+in_pin:i4
+in_pin:i5
+in_pin:i6
+in_pin:i7
+in_pin:i8
+in_pin:i9
+in_pin:i10
+in_pin:i11
+in_pin:i12
+in_pin:i13
+in_pin:i14
+in_pin:i15
+in_pin:i16
+in_pin:i17
+in_pin:i18
+in_pin:i19
+in_pin:i20
+in_pin:i21
+in_pin:i22
+in_pin:i23
+in_pin:i24
+in_pin:i25
+in_pin:i26
+in_pin:i27
+in_pin:i28
+in_pin:i29
+in_pin:i30
+in_pin:i31
+in_pin:i32
+in_pin:i33
+in_pin:i34
+in_pin:i35
+in_pin:i36
+in_pin:i37
+in_pin:i38
+in_pin:i39
+in_pin:i40
+in_pin:i41
+in_pin:i42
+in_pin:i43
+in_pin:i44
+in_pin:i45
+in_pin:i46
+in_pin:i47
+in_pin:i48
+in_pin:i49
+in_pin:i50
+in_pin:i51
+in_pin:i52
+in_pin:i53
+in_pin:i54
+in_pin:i55
+in_pin:i56
+in_pin:i57
+in_pin:i58
+in_pin:i59
+in_pin:i60
+in_pin:i61
+in_pin:i62
+in_pin:i63
+in_pin:i64
+out_pin:o1
+out_pin:o2
+out_pin:o3
+out_pin:o4
+out_pin:o5
+out_pin:o6
+out_pin:o7
+out_pin:o8
+out_pin:o9
+out_pin:o10
+out_pin:o11
+out_pin:o12
+out_pin:o13
+out_pin:o14
+out_pin:o15
+out_pin:o16
+out_pin:o17
+out_pin:o18
+out_pin:o19
+out_pin:o20
+out_pin:o21
+out_pin:o22
+out_pin:o23
+out_pin:o24
+out_pin:o25
+out_pin:o26
+out_pin:o27
+out_pin:o28
+out_pin:o29
+out_pin:o30
+out_pin:o31
+out_pin:o32
+out_pin:o33
+out_pin:o34
+out_pin:o35
+out_pin:o36
+out_pin:o37
+out_pin:o38
+out_pin:o39
+out_pin:o40
+out_pin:o41
+out_pin:o42
+out_pin:o43
+out_pin:o44
+out_pin:o45
+out_pin:o46
+out_pin:o47
+out_pin:o48
+out_pin:o49
+out_pin:o50
+out_pin:o51
+out_pin:o52
+out_pin:o53
+out_pin:o54
+out_pin:o55
+out_pin:o56
+out_pin:o57
+out_pin:o58
+out_pin:o59
+out_pin:o60
+out_pin:o61
+out_pin:o62
+out_pin:o63
+out_pin:o64
+
+@init
+g = 0;
+hg = 0;
+sg = 0;
+cmgs = 1;     // smoothed cues master gain
+ncue = 6;  next = 6;  nmon = 6;
+k = 0.70710678;
+last_cap = 0;
+drag_id = 0;
+edit_id = 0;
+kstyle = 0;   // 1 = SSL-style main level knob, 0 = standard knob
+last_click_f = -1000;
+last_click_id = 0;
+fcount = 0;
+klast_y = 0;
+strcpy(#ebuf, "");
+mem = 0;
+// memory map: 0-43 HP state, 100-143 LP state, 200-212 meters,
+//             300-387 filter coefficients (8 per channel)
+memset(0, 0, 832);
+// speaker on/off: smoothed gains at mem[220..232], targets at mem[240..252]
+i = 0;
+loop(13, mem[220 + i] = 1; mem[240 + i] = 1; i += 1);
+// cue send faders: smoothed gains at mem[400..405], targets at mem[410..415],
+// post-fader cue samples at mem[420..431]
+i = 0;
+loop(6, mem[400 + i] = 1; mem[410 + i] = 1; i += 1);
+// cue talkback dim: smoothed gains at mem[520..525], targets at mem[530..535]
+i = 0;
+loop(6, mem[520 + i] = 1; mem[530 + i] = 1; i += 1);
+
+function fold(a, b) local(m) (
+  m = (spl(a) + spl(b)) * 0.5;
+  spl(a) = m;
+  spl(b) = m;
+);
+
+// Compute high-pass + low-pass coefficients for one channel (Butterworth Q = 0.7071)
+// layout at cb: 0 hb0, 1 hb1, 2 hb2, 3 lb0, 4 lb1, 5 lb2, 6 a1, 7 a2
+function setco(ch, fc) local(cb, w0, cw, al, a0i) (
+  cb  = 300 + ch * 8;
+  fc  = min(fc, srate * 0.45);
+  w0  = 2 * $pi * fc / srate;
+  cw  = cos(w0);
+  al  = sin(w0) / (2 * 0.70710678);
+  a0i = 1 / (1 + al);
+  mem[cb]     = (1 + cw) * 0.5 * a0i;
+  mem[cb + 1] = -(1 + cw) * a0i;
+  mem[cb + 2] = mem[cb];
+  mem[cb + 3] = (1 - cw) * 0.5 * a0i;
+  mem[cb + 4] = (1 - cw) * a0i;
+  mem[cb + 5] = mem[cb + 3];
+  mem[cb + 6] = -2 * cw * a0i;
+  mem[cb + 7] = (1 - al) * a0i;
+);
+
+// one biquad stage, high-pass; state at mem[o], mem[o+1]
+function hp1(x, o, cb) local(y) (
+  y = mem[cb] * x + mem[o];
+  mem[o]     = mem[cb + 1] * x - mem[cb + 6] * y + mem[o + 1];
+  mem[o + 1] = mem[cb + 2] * x - mem[cb + 7] * y;
+  y;
+);
+// one biquad stage, low-pass
+function lp1(x, o, cb) local(y) (
+  y = mem[cb + 3] * x + mem[o];
+  mem[o]     = mem[cb + 4] * x - mem[cb + 6] * y + mem[o + 1];
+  mem[o + 1] = mem[cb + 5] * x - mem[cb + 7] * y;
+  y;
+);
+// Linkwitz-Riley 4 = two cascaded Butterworth stages, per channel ch (0-10)
+function hp(x, ch) local(o, cb) (
+  o = ch * 4;  cb = 300 + ch * 8;
+  hp1(hp1(x, o, cb), o + 2, cb);
+);
+function lp(x, ch) local(o, cb) (
+  o = 100 + ch * 4;  cb = 300 + ch * 8;
+  lp1(lp1(x, o, cb), o + 2, cb);
+);
+
+// meter peak hold
+function pk(i, v) local(a) (
+  a = abs(v);
+  a > mem[200 + i] ? mem[200 + i] = a;
+);
+
+// ---- channel formats: 0 7.2.4, 1 7.1.4, 2 5.2, 3 5.1, 4 Quad, 5 Stereo ----
+// speaker index space: 0 L, 1 R, 2 C, 3 LFE1, 4 LFE2, 5 Lss(Ls), 6 Rss(Rs), 7 Lrs, 8 Rrs, 9 Ltf, 10 Rtf, 11 Ltr, 12 Rtr
+function fmt_n(f) ( f == 0 ? 13 : (f == 1 ? 12 : (f == 2 ? 7 : (f == 3 ? 6 : (f == 4 ? 4 : 2)))) );
+function fmt_idx(f, j) (
+  f == 1 ? (j < 4 ? j : j + 1) : (f == 3 ? (j < 4 ? j : j + 1) : (f == 4 ? (j < 2 ? j : j + 3) : j))
+);
+// does the format use speaker index ix (the subs of Quad / Stereo count as used)
+function fmt_has(f, ix) (
+  f == 0 ? 1 : (f == 1 ? (ix != 4) : (f == 2 ? (ix < 7) : (f == 3 ? (ix < 7 && ix != 4) : (f == 4 ? (ix < 2 || (ix >= 3 && ix <= 6)) : (ix < 2 || ix == 3 || ix == 4)))))
+);
+function fmt_str(f) (
+  f == 0 ? strcpy(#fnm, "7.2.4") : (f == 1 ? strcpy(#fnm, "7.1.4") : (f == 2 ? strcpy(#fnm, "5.2") : (f == 3 ? strcpy(#fnm, "5.1") : (f == 4 ? strcpy(#fnm, "Quad") : strcpy(#fnm, "Stereo")))));
+);
+function mfmt(k) (
+  max(0, min(5, (k == 0 ? slider167 : (k == 1 ? slider168 : (k == 2 ? slider169 : (k == 3 ? slider170 : (k == 4 ? slider171 : slider172))))) | 0))
+);
+function mout(k) ( k == 0 ? slider34 : (k == 1 ? slider35 : (k == 2 ? slider36 : (k == 3 ? slider37 : (k == 4 ? slider139 : slider140)))) );
+// mono fold of a speaker pair in the speaker signal table
+function foldm(a, b) local(m) (
+  m = (mem[1200 + a] + mem[1200 + b]) * 0.5;
+  mem[1200 + a] = m;  mem[1200 + b] = m;
+);
+// pop-up list of the six formats (current one ticked); returns 0-5, or -1 when dismissed
+function dd_menu(cur) local(i, r) (
+  strcpy(#ddm, "");
+  i = 0;
+  loop(6,
+    fmt_str(i);
+    strcat(#ddm, i == cur ? "!" : "");
+    strcat(#ddm, #fnm);
+    i < 5 ? strcat(#ddm, "|");
+    i += 1;
+  );
+  gfx_x = mouse_x;  gfx_y = mouse_y;
+  r = gfx_showmenu(#ddm);
+  r > 0 ? r - 1 : -1;
+);
+
+// a source choice that points at a cue / EXT that is switched off falls back to MIX
+function srcfix(x) (
+  (x >= 1 && x <= 6 && x > ncue) ? 0 : ((x >= 7 && x - 6 > next) ? 0 : x)
+);
+
+// copy n raw inputs starting at src (0-based) into the internal channel layout at dst; out of range = silence
+function in_map(dst, src, n) local(j, q) (
+  j = 0;
+  loop(n, q = src + j; spl(dst + j) = (q >= 0 && q < 64) ? mem[900 + q] : 0; j += 1;);
+);
+
+// meter peak hold at an arbitrary memory address
+function pk2(a, v) local(x) (
+  x = abs(v);
+  x > mem[a] ? mem[a] = x;
+);
+
+// fetch a stereo source into sl / sr: sel 0-5 = CUE 1-6 (post-fader), 6-11 = EXT 1-6
+// EXT 1 = channels 29/30 (first pair of its 14), EXT 2 = 43/44, EXT 3 = 45/46, EXT 4 = 47/48,
+// EXT 5 = channels 49/50 and EXT 6 = channels 51/52 (stereo).
+// EXT n (0-5) channel j (0-13) from the per-EXT buffer; channels beyond that EXT's channel count are silent
+function ext_ch(n, j) ( j < mem[1520 + n] ? mem[1600 + n * 16 + j] : 0 );
+
+function getsrc(sel) (
+  sel < 6 ? (
+    sl = mem[420 + 2 * sel];  sr = mem[421 + 2 * sel];
+  ) : (
+    sl = mem[1700 + 2 * (sel - 6)];  sr = mem[1701 + 2 * (sel - 6)];   // EXT pair: channels 1/2 of that EXT (mono feeds both)
+  );
+);
+
+@block
+set   = min(slider1 | 0, max(1, min(6, slider166 | 0)) - 1);   // a monitor beyond the monitor count falls back to the last one in use
+af    = mfmt(set);                                // format of the active monitor
+fm    = max(0, min(5, slider174 | 0));            // format of the main mix bus
+nmix  = fmt_n(fm);
+ks    = fm < 2 ? k : 1;                           // 7.x mix: side + rear surrounds fold together at -3 dB; 5.x and smaller: surrounds pass at full level
+nafo  = fmt_n(af);                                // channels of the active format
+nafs  = nafo + (af >= 4 ? 2 : 0);                 // plus the two sub outputs for Quad / Stereo
+os    = max(0, min(64 - nafo, (mout(set) | 0) - 1));
+osub  = max(0, min(62, (slider173 | 0) - 1));
+dimg  = slider2 ? pow(10, slider3 / 20) : 1;
+target = slider5 ? 0 : pow(10, slider6 / 20) * dimg;
+
+// headphone level and source (independent of speaker level / dim / mute)
+hpt = slider143 ? 0 : pow(10, slider39 / 20) * (slider144 ? pow(10, slider3 / 20) : 1);   // headphone level, mute, dim (shared dim level)
+stt = slider145 ? 0 : pow(10, slider130 / 20) * (slider146 ? pow(10, slider3 / 20) : 1);   // studio monitors level, mute, dim (shared dim level)
+ncue = max(0, min(6, slider164 | 0));   // number of cues in use
+nmon = max(1, min(6, slider166 | 0));  // number of monitors (speaker sets) in use
+next = max(0, min(6, slider165 | 0));   // number of EXT inputs in use
+ssrc = srcfix(slider131 | 0);   // studio monitors source: 0 MIX, 1-6 CUE, 7-12 EXT
+src = srcfix(slider40 | 0);
+msrc = srcfix(slider63 | 0);   // main monitor source: 0 MIX, 1-6 CUE, 7-12 EXT
+
+bmon  = slider7 ? 1 : 0;
+subg  = pow(10, slider9 / 20);
+lfeg  = pow(10, slider11 / 20);
+bto   = slider10 | 0;
+
+// bass management applies to every monitor format
+bm = bmon ? 1 : 0;
+// per-channel bass management flags (0 or 1)
+fL   = bm * (slider12 ? 1 : 0);
+fR   = bm * (slider13 ? 1 : 0);
+fC   = bm * (slider14 ? 1 : 0);
+fLss = bm * (slider15 ? 1 : 0);
+fRss = bm * (slider16 ? 1 : 0);
+fLrs = bm * (slider17 ? 1 : 0);
+fRrs = bm * (slider18 ? 1 : 0);
+fLtf = bm * (slider19 ? 1 : 0);
+fRtf = bm * (slider20 ? 1 : 0);
+fLtr = bm * (slider21 ? 1 : 0);
+fRtr = bm * (slider22 ? 1 : 0);
+
+// plug-in input / output routing (start channels from the Routing section)
+ci_mix = max(0, min(64 - nmix, (slider149 | 0) - 1));    // nmix channels, set by the mix bus format
+ci_tlk = max(0, min(63, (slider150 | 0) - 1));
+ci_lis = max(0, min(63, (slider151 | 0) - 1));
+mem[1500] = max(0, min(62, (slider175 | 0) - 1));   // cue 1 input start
+mem[1501] = max(0, min(62, (slider176 | 0) - 1));   // cue 2 input start
+mem[1502] = max(0, min(62, (slider177 | 0) - 1));   // cue 3 input start
+mem[1503] = max(0, min(62, (slider178 | 0) - 1));   // cue 4 input start
+mem[1504] = max(0, min(62, (slider179 | 0) - 1));   // cue 5 input start
+mem[1505] = max(0, min(62, (slider180 | 0) - 1));   // cue 6 input start
+mem[1520] = max(1, min(14, slider187 | 0));  mem[1530] = max(0, min(64 - mem[1520], (slider153 | 0) - 1));   // EXT 1 channel count / input start
+mem[1521] = max(1, min(14, slider188 | 0));  mem[1531] = max(0, min(64 - mem[1521], (slider154 | 0) - 1));   // EXT 2 channel count / input start
+mem[1522] = max(1, min(14, slider189 | 0));  mem[1532] = max(0, min(64 - mem[1522], (slider155 | 0) - 1));   // EXT 3 channel count / input start
+mem[1523] = max(1, min(14, slider190 | 0));  mem[1533] = max(0, min(64 - mem[1523], (slider156 | 0) - 1));   // EXT 4 channel count / input start
+mem[1524] = max(1, min(14, slider191 | 0));  mem[1534] = max(0, min(64 - mem[1524], (slider157 | 0) - 1));   // EXT 5 channel count / input start
+mem[1525] = max(1, min(14, slider192 | 0));  mem[1535] = max(0, min(64 - mem[1525], (slider158 | 0) - 1));   // EXT 6 channel count / input start
+oc_hp  = max(0, min(62, (slider160 | 0) - 1));
+oc_mt  = max(0, min(62, (slider161 | 0) - 1));
+mem[1510] = max(0, min(62, (slider181 | 0) - 1));   // cue 1 output start
+mem[1511] = max(0, min(62, (slider182 | 0) - 1));   // cue 2 output start
+mem[1512] = max(0, min(62, (slider183 | 0) - 1));   // cue 3 output start
+mem[1513] = max(0, min(62, (slider184 | 0) - 1));   // cue 4 output start
+mem[1514] = max(0, min(62, (slider185 | 0) - 1));   // cue 5 output start
+mem[1515] = max(0, min(62, (slider186 | 0) - 1));   // cue 6 output start
+oc_stu = max(0, min(62, (slider163 | 0) - 1));
+
+
+// per-channel crossover coefficients
+setco(0,  slider23);
+setco(1,  slider24);
+setco(2,  slider25);
+setco(3,  slider26);
+setco(4,  slider27);
+setco(5,  slider28);
+setco(6,  slider29);
+setco(7,  slider30);
+setco(8,  slider31);
+setco(9,  slider32);
+setco(10, slider33);
+
+// per-speaker on/off targets (channel order: L R C LFE1 LFE2 Lss Rss Lrs Rrs Ltf Rtf Ltr Rtr)
+mem[240] = slider43 ? 1 : 0;
+mem[241] = slider44 ? 1 : 0;
+mem[242] = slider45 ? 1 : 0;
+mem[243] = slider46 ? 1 : 0;
+mem[244] = slider47 ? 1 : 0;
+mem[245] = slider48 ? 1 : 0;
+mem[246] = slider49 ? 1 : 0;
+mem[247] = slider50 ? 1 : 0;
+mem[248] = slider51 ? 1 : 0;
+mem[249] = slider52 ? 1 : 0;
+mem[250] = slider53 ? 1 : 0;
+mem[251] = slider54 ? 1 : 0;
+mem[252] = slider55 ? 1 : 0;
+
+// cue send fader targets (at or below -60 dB = off)
+mem[410] = (slider118 && slider56 > -60) ? pow(10, slider56 / 20) : 0;
+mem[411] = (slider119 && slider57 > -60) ? pow(10, slider57 / 20) : 0;
+mem[412] = (slider120 && slider58 > -60) ? pow(10, slider58 / 20) : 0;
+mem[413] = (slider121 && slider59 > -60) ? pow(10, slider59 / 20) : 0;
+mem[414] = (slider122 && slider60 > -60) ? pow(10, slider60 / 20) : 0;
+mem[415] = (slider123 && slider61 > -60) ? pow(10, slider61 / 20) : 0;
+
+// cue talkback targets (on = level in dB, off = silent)
+mem[450] = (slider64 && slider133) ? pow(10, slider70 / 20) : 0;
+mem[451] = (slider65 && slider134) ? pow(10, slider71 / 20) : 0;
+mem[452] = (slider66 && slider135) ? pow(10, slider72 / 20) : 0;
+mem[453] = (slider67 && slider136) ? pow(10, slider73 / 20) : 0;
+mem[454] = (slider68 && slider137) ? pow(10, slider74 / 20) : 0;
+mem[455] = (slider69 && slider138) ? pow(10, slider75 / 20) : 0;
+// cue dim while talkback is on (unity otherwise)
+mem[530] = (slider64 && slider133 && slider124) ? pow(10, slider112 / 20) : 1;
+mem[531] = (slider65 && slider134 && slider125) ? pow(10, slider113 / 20) : 1;
+mem[532] = (slider66 && slider135 && slider126) ? pow(10, slider114 / 20) : 1;
+mem[533] = (slider67 && slider136 && slider127) ? pow(10, slider115 / 20) : 1;
+mem[534] = (slider68 && slider137 && slider128) ? pow(10, slider116 / 20) : 1;
+mem[535] = (slider69 && slider138 && slider129) ? pow(10, slider117 / 20) : 1;
+
+// cue send source flags: mem[460 + 5*cue + (0 CUE, 1 MIX, 2 EXT1, 3 EXT2, 4 EXT3)]
+mem[460] = slider82 ? 1 : 0;
+mem[461] = slider83 ? 1 : 0;
+mem[462] = slider84 ? 1 : 0;
+mem[463] = slider85 ? 1 : 0;
+mem[464] = slider86 ? 1 : 0;
+mem[465] = slider87 ? 1 : 0;
+mem[466] = slider88 ? 1 : 0;
+mem[467] = slider89 ? 1 : 0;
+mem[468] = slider90 ? 1 : 0;
+mem[469] = slider91 ? 1 : 0;
+mem[470] = slider92 ? 1 : 0;
+mem[471] = slider93 ? 1 : 0;
+mem[472] = slider94 ? 1 : 0;
+mem[473] = slider95 ? 1 : 0;
+mem[474] = slider96 ? 1 : 0;
+mem[475] = slider97 ? 1 : 0;
+mem[476] = slider98 ? 1 : 0;
+mem[477] = slider99 ? 1 : 0;
+mem[478] = slider100 ? 1 : 0;
+mem[479] = slider101 ? 1 : 0;
+mem[480] = slider102 ? 1 : 0;
+mem[481] = slider103 ? 1 : 0;
+mem[482] = slider104 ? 1 : 0;
+mem[483] = slider105 ? 1 : 0;
+mem[484] = slider106 ? 1 : 0;
+mem[485] = slider107 ? 1 : 0;
+mem[486] = slider108 ? 1 : 0;
+mem[487] = slider109 ? 1 : 0;
+mem[488] = slider110 ? 1 : 0;
+mem[489] = slider111 ? 1 : 0;
+
+// meter decay (about 0.3 s)
+dec = exp(-samplesblock / (srate * 0.3));
+mi = 0;
+loop(14, mem[200 + mi] *= dec; mi += 1);
+mi = 0;
+loop(12, mem[260 + mi] *= dec; mi += 1);
+mem[282] *= dec;  mem[283] *= dec;
+mem[284] *= dec;  mem[285] *= dec;
+mi = 0;
+loop(64, mem[600 + mi] *= dec; mi += 1);
+mi = 0;
+loop(64, mem[700 + mi] *= dec; mi += 1);
+mi = 0;
+loop(13, mem[500 + mi] *= dec; mi += 1);
+
+@sample
+g += (target - g) * 0.002;   // smoothed gain, avoids clicks
+hg += (hpt - hg) * 0.002;    // smoothed headphone gain
+sg += (stt - sg) * 0.002;    // smoothed studio monitors gain
+cmgs += ((slider148 <= -60 ? 0 : pow(10, slider148 / 20)) - cmgs) * 0.002;   // smoothed cues master gain
+
+// input routing: keep the raw inputs (input check shows these), then place each source at the fixed internal
+// position the rest of the code reads (mix 1-13, talkback 15, listen 16, cues 17-28, EXT 1 29-42, EXT 2-6 43-52)
+i = 0;
+loop(64, mem[900 + i] = spl(i); pk2(600 + i, spl(i)); i += 1);
+i = 0;  loop(14, spl(i) = 0; i += 1;);
+i = 0;  loop(nmix, q = ci_mix + i;  spl(fmt_idx(fm, i)) = (q < 64) ? mem[900 + q] : 0;  i += 1;);   // mix bus channels into the speaker index layout
+in_map(14, ci_tlk, 1);  in_map(15, ci_lis, 1);
+in_map(16, mem[1500], 2);  in_map(18, mem[1501], 2);  in_map(20, mem[1502], 2);
+in_map(22, mem[1503], 2);  in_map(24, mem[1504], 2);  in_map(26, mem[1505], 2);
+ex_i = 0;
+loop(6,
+  ex_c = mem[1520 + ex_i];  ex_s = mem[1530 + ex_i];  ex_j = 0;
+  loop(14, ex_q = ex_s + ex_j;  mem[1600 + ex_i * 16 + ex_j] = (ex_j < ex_c && ex_q < 64) ? mem[900 + ex_q] : 0;  ex_j += 1;);
+  mem[1700 + 2 * ex_i] = mem[1600 + ex_i * 16];
+  mem[1701 + 2 * ex_i] = ex_c > 1 ? mem[1601 + ex_i * 16] : mem[1600 + ex_i * 16];
+  ex_i += 1;
+);
+
+L = spl0;  R = spl1;  C = spl2;  LF1 = spl3; LF2 = spl4;
+Lss = spl5; Rss = spl6; Lrs = spl7; Rrs = spl8;
+Ltf = spl9; Rtf = spl10; Ltr = spl11; Rtr = spl12;
+
+tk = spl(14);   // talkback bus (master channel 15, mono)
+
+// mix as heard by a cue's MIX source (ITU fold-down of the raw mix)
+cmL = (L + k * Ltf) + k * C + k * (ks * (Lss + Lrs) + k * Ltr);
+cmR = (R + k * Rtf) + k * C + k * (ks * (Rss + Rrs) + k * Rtr);
+
+// cue sends: sum of the enabled sources (CUE bus, MIX, EXT 1-3), then the cue fader.
+// Kept for monitoring / pass-through.
+i = 0;
+loop(6,
+  mem[400 + i] += (mem[410 + i] - mem[400 + i]) * 0.002;
+  cf  = 460 + 5 * i;
+  cql = mem[cf] * spl(16 + 2 * i) + mem[cf + 1] * cmL + (next >= 1 ? mem[cf + 2] * mem[1700] : 0) + (next >= 2 ? mem[cf + 3] * mem[1702] : 0) + (next >= 3 ? mem[cf + 4] * mem[1704] : 0);
+  cqr = mem[cf] * spl(17 + 2 * i) + mem[cf + 1] * cmR + (next >= 1 ? mem[cf + 2] * mem[1701] : 0) + (next >= 2 ? mem[cf + 3] * mem[1703] : 0) + (next >= 3 ? mem[cf + 4] * mem[1705] : 0);
+  mem[420 + 2 * i] = cql * mem[400 + i];
+  mem[421 + 2 * i] = cqr * mem[400 + i];
+  mem[440 + i] += (mem[450 + i] - mem[440 + i]) * 0.002;   // talkback gain, smoothed
+  mem[520 + i] += (mem[530 + i] - mem[520 + i]) * 0.002;   // talkback dim, smoothed
+  i += 1;
+);
+
+// raw ITU fold-down of the mix (before bass management) for the MIX headphone source
+rL5  = L + k * Ltf;
+rR5  = R + k * Rtf;
+rLs5 = ks * (Lss + Lrs) + k * Ltr;
+rRs5 = ks * (Rss + Rrs) + k * Rtr;
+rLo  = rL5 + k * C + k * rLs5;
+rRo  = rR5 + k * C + k * rRs5;
+
+// headphone source (read before outputs are cleared)
+// 0 = MIX, 1-6 = CUE 1-6 (master ch 25-36), 7-12 = EXT 1-6 (master ch 37-48)
+src == 0 ? (
+  hpl = rLo;  hpr = rRo;
+) : (
+  getsrc(src - 1);
+  hpl = sl;  hpr = sr;
+);
+
+// studio monitors feed (stereo): the mix, a cue or an EXT pair
+ssrc == 0 ? (
+  stuL = rLo;  stuR = rRo;
+) : (
+  getsrc(ssrc - 1);
+  stuL = sl;  stuR = sr;
+);
+
+// main monitor source: a cue or ext pair replaces the mix on the L/R speakers
+// (the mix for the headphone MIX source was already taken above)
+msrc >= 7 ? (
+  // an EXT source plays its channels laid out like the mix (L R C LFE1 LFE2 Lss Rss Lrs Rrs Ltf Rtf Ltr Rtr);
+  // a mono EXT feeds L and R, channel 14 only shows on the source meter
+  xn = msrc - 7;
+  L = ext_ch(xn, 0);   R = mem[1520 + xn] > 1 ? ext_ch(xn, 1) : L;   C = ext_ch(xn, 2);   LF1 = ext_ch(xn, 3);  LF2 = ext_ch(xn, 4);
+  Lss = ext_ch(xn, 5); Rss = ext_ch(xn, 6); Lrs = ext_ch(xn, 7); Rrs = ext_ch(xn, 8);
+  Ltf = ext_ch(xn, 9); Rtf = ext_ch(xn, 10); Ltr = ext_ch(xn, 11); Rtr = ext_ch(xn, 12);
+  pk(13, ext_ch(xn, 13));
+) : msrc != 0 ? (
+  getsrc(msrc - 1);
+  L = sl;  R = sr;  C = 0;  LF1 = 0;  LF2 = 0;
+  Lss = 0; Rss = 0; Lrs = 0; Rrs = 0;
+  Ltf = 0; Rtf = 0; Ltr = 0; Rtr = 0;
+);
+
+// feed for the external meter (hardware 23/24): stereo fold-down of what the main monitors play
+mtL = (L + k * Ltf) + k * C + k * (ks * (Lss + Lrs) + k * Ltr);
+mtR = (R + k * Rtf) + k * C + k * (ks * (Rss + Rrs) + k * Rtr);
+
+// ---- per-channel crossover (filters always running so state stays continuous) ----
+// channel index: 0 L, 1 R, 2 C, 3 Lss, 4 Rss, 5 Lrs, 6 Rrs, 7 Ltf, 8 Rtf, 9 Ltr, 10 Rtr
+hL   = hp(L,   0);  lL   = lp(L,   0);
+hR   = hp(R,   1);  lR   = lp(R,   1);
+hC   = hp(C,   2);  lC   = lp(C,   2);
+hLss = hp(Lss, 3);  lLss = lp(Lss, 3);
+hRss = hp(Rss, 4);  lRss = lp(Rss, 4);
+hLrs = hp(Lrs, 5);  lLrs = lp(Lrs, 5);
+hRrs = hp(Rrs, 6);  lRrs = lp(Rrs, 6);
+hLtf = hp(Ltf, 7);  lLtf = lp(Ltf, 7);
+hRtf = hp(Rtf, 8);  lRtf = lp(Rtf, 8);
+hLtr = hp(Ltr, 9);  lLtr = lp(Ltr, 9);
+hRtr = hp(Rtr, 10); lRtr = lp(Rtr, 10);
+
+// low sums for the sub feed: only channels with BM on contribute
+// centre is split 50/50 so L+R equals a mono sum
+lowL0 = fL*lL + fLss*lLss + fLrs*lLrs + fLtf*lLtf + fLtr*lLtr + 0.5*fC*lC;
+lowR0 = fR*lR + fRss*lRss + fRrs*lRrs + fRtf*lRtf + fRtr*lRtr + 0.5*fC*lC;
+// 5.2 set: same weights as the fold-down
+lowL1 = fL*lL + k*fLtf*lLtf + ks*(fLss*lLss + fLrs*lLrs) + k*fLtr*lLtr + 0.5*fC*lC;
+lowR1 = fR*lR + k*fRtf*lRtf + ks*(fRss*lRss + fRrs*lRrs) + k*fRtr*lRtr + 0.5*fC*lC;
+
+// channels with BM on get their high-passed signal; others stay full range
+L   = fL   ? hL   : L;
+R   = fR   ? hR   : R;
+C   = fC   ? hC   : C;
+Lss = fLss ? hLss : Lss;
+Rss = fRss ? hRss : Rss;
+Lrs = fLrs ? hLrs : Lrs;
+Rrs = fRrs ? hRrs : Rrs;
+Ltf = fLtf ? hLtf : Ltf;
+Rtf = fRtf ? hRtf : Rtf;
+Ltr = fLtr ? hLtr : Ltr;
+Rtr = fRtr ? hRtr : Rtr;
+
+bassL = (af <= 1 ? lowL0 : lowL1) * subg;
+bassR = (af <= 1 ? lowR0 : lowR1) * subg;
+bsum  = bassL + bassR;
+
+// bto: 0 = both (mono sum), 1 = LFE1 only, 2 = LFE2 only, 3 = stereo
+add1 = (bto == 3) ? bassL : ((bto != 2) ? bsum : 0);
+add2 = (bto == 3) ? bassR : ((bto != 1) ? bsum : 0);
+
+lfe1 = LF1 * lfeg + (bm ? add1 : 0);
+lfe2 = LF2 * lfeg + (bm ? add2 : 0);
+
+// meters: post bass management, pre fold-down / monitor level
+pk(0, L);   pk(1, R);   pk(2, C);   pk(3, lfe1); pk(4, lfe2);
+pk(5, Lss); pk(6, Rss); pk(7, Lrs); pk(8, Rrs);
+pk(9, Ltf); pk(10, Rtf); pk(11, Ltr); pk(12, Rtr);
+
+// clear all 50 outputs (inputs have already been read)
+i = 0;
+loop(64, spl(i) = 0; i += 1);
+
+// cue sends leave the plugin on channels 49-60: post-fader, dimmed while that cue's
+// talkback is on, plus the talkback mic.
+// (the monitor / headphone cue sources use mem[420..431], which has no talkback)
+i = 0;
+loop(12,
+  tv = (floor(i / 2) < ncue) ? (mem[420 + i] * mem[520 + floor(i / 2)] * cmgs + tk * mem[440 + floor(i / 2)]) : 0;
+  mem[1100 + i] = tv;      // written to the Cues out start after the speaker level is applied
+  pk2(260 + i, tv);
+  i += 1;
+);
+
+// fold-downs for the smaller formats (heights into L/R and surrounds; ks keeps 5.x surrounds at full level)
+L5  = L + k * Ltf;
+R5  = R + k * Rtf;
+Ls5 = ks * (Lss + Lrs) + k * Ltr;
+Rs5 = ks * (Rss + Rrs) + k * Rtr;
+Lo = L5 + k * C + k * Ls5;
+Ro = R5 + k * C + k * Rs5;
+// single LFE (7.1.4 / 5.1): both sub feeds and the bass in one channel
+lfeS = (LF1 + LF2) * lfeg + (bm ? bsum : 0);
+
+// speaker signals by speaker index for the active monitor format
+i = 0;  loop(13, mem[1200 + i] = 0; i += 1;);
+af <= 1 ? (
+  mem[1200] = L;  mem[1201] = R;  mem[1202] = C;
+  mem[1203] = af == 1 ? lfeS : lfe1;  mem[1204] = lfe2;
+  mem[1205] = Lss; mem[1206] = Rss; mem[1207] = Lrs; mem[1208] = Rrs;
+  mem[1209] = Ltf; mem[1210] = Rtf; mem[1211] = Ltr; mem[1212] = Rtr;
+) : af <= 3 ? (
+  mem[1200] = L5;  mem[1201] = R5;  mem[1202] = C;
+  mem[1203] = af == 3 ? lfeS : lfe1;  mem[1204] = lfe2;
+  mem[1205] = Ls5; mem[1206] = Rs5;
+) : af == 4 ? (
+  mem[1200] = L5 + k * C;  mem[1201] = R5 + k * C;
+  mem[1203] = lfe1;  mem[1204] = lfe2;      // subs leave at the Subs out start
+  mem[1205] = Ls5; mem[1206] = Rs5;
+) : (
+  mem[1200] = Lo;  mem[1201] = Ro;
+  mem[1203] = lfe1;  mem[1204] = lfe2;      // subs leave at the Subs out start
+);
+slider4 ? ( foldm(0, 1); foldm(5, 6); foldm(7, 8); foldm(9, 10); foldm(11, 12); );
+
+// per-speaker on/off (smoothed), monitor level / dim / mute, then write the active monitor and meter it
+i = 0;
+loop(13, mem[220 + i] += (mem[240 + i] - mem[220 + i]) * 0.002; i += 1);
+nsp = nafs;
+i = 0;
+loop(nafs,
+  ix = i < nafo ? fmt_idx(af, i) : i - nafo + 3;
+  wv = mem[1200 + ix] * mem[220 + ix] * g;
+  spl(i < nafo ? os + i : osub + i - nafo) = wv;
+  pk2(500 + i, wv);
+  i += 1;
+);
+
+// headphone out on channels 15/16 (not affected by speaker level, dim or mute)
+spl(oc_hp) = hpl * hg;
+spl(oc_hp + 1) = hpr * hg;
+pk2(282, spl(oc_hp));
+pk2(283, spl(oc_hp + 1));
+
+// meter L/R on channels 23/24 (before the main monitors' level, dim and mute)
+spl(oc_mt) = mtL;
+spl(oc_mt + 1) = mtR;
+
+// studio monitors out on channels 63/64 (independent of the main monitors' level, dim and mute)
+spl(oc_stu) = stuL * sg;
+spl(oc_stu + 1) = stuR * sg;
+pk2(284, spl(oc_stu));
+pk2(285, spl(oc_stu + 1));
+
+// each cue leaves at its own output start (stereo pair)
+i = 0;
+loop(6, spl(mem[1510 + i]) = mem[1100 + 2 * i];  spl(mem[1510 + i] + 1) = mem[1101 + 2 * i];  i += 1);
+
+// output check: peak of every plug-in output channel 1-64 as finally written (what goes to the hardware)
+i = 0;
+loop(64, pk2(700 + i, spl(i)); i += 1);
+
+@gfx 360 3193
+gfx_set(0.12, 0.12, 0.12);
+gfx_rect(0, 0, gfx_w, gfx_h);
+fcount += 1;
+
+// releasing the mouse ends any fader/knob drag
+!(mouse_cap & 1) ? drag_id = 0;
+
+// sunken frame just outside a rectangle: dark on top/left, light on bottom/right
+function inset(x, y, w, h) (
+  gfx_set(0, 0, 0, 0.75);
+  gfx_rect(x - 1, y - 1, w + 2, 1);
+  gfx_rect(x - 1, y - 1, 1, h + 2);
+  gfx_set(1, 1, 1, 0.18);
+  gfx_rect(x - 1, y + h, w + 2, 1);
+  gfx_rect(x + w, y - 1, 1, h + 2);
+  gfx_a = 1;
+);
+
+// raised (or pressed) 3D button face: vertical gradient with bevelled edges
+function bevel(x, y, w, h, r, g, b, pressed) local(i, t, f, by0, bh) (
+  i = 0;
+  loop(8,
+    t = i / 7;                                                  // 0 = top .. 1 = bottom
+    f = pressed ? (0.80 + 0.12 * t) : (1.22 - 0.42 * t);        // lit from above
+    gfx_set(min(1, r * f), min(1, g * f), min(1, b * f));
+    by0 = y + floor(h * i / 8);
+    bh  = min(ceil(h / 8) + 1, y + h - by0);
+    gfx_rect(x, by0, w, bh);
+    i += 1;
+  );
+  // light on top/left, dark on bottom/right (reversed when pressed)
+  pressed ? gfx_set(0, 0, 0, 0.55) : gfx_set(1, 1, 1, 0.45);
+  gfx_rect(x, y, w, 1);
+  gfx_rect(x, y, 1, h);
+  pressed ? gfx_set(1, 1, 1, 0.22) : gfx_set(0, 0, 0, 0.55);
+  gfx_rect(x, y + h - 1, w, 1);
+  gfx_rect(x + w - 1, y, 1, h);
+  gfx_a = 1;
+);
+
+function btn(x, y, w, h, label, on) local(hit, tw, th, inside, pressed, o) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  pressed = (mouse_cap & 1) && inside;
+  on ? bevel(x, y, w, h, 0.15, 0.65, 0.30, pressed) : bevel(x, y, w, h, 0.30, 0.30, 0.30, pressed);
+  o = pressed ? 1 : 0;
+  gfx_measurestr(label, tw, th);
+  gfx_set(0, 0, 0, 0.6);
+  gfx_x = x + (w - tw) / 2 + o + 1;  gfx_y = y + (h - th) / 2 + o + 1;
+  gfx_drawstr(label);
+  gfx_set(1, 1, 1);
+  gfx_x = x + (w - tw) / 2 + o;      gfx_y = y + (h - th) / 2 + o;
+  gfx_drawstr(label);
+  hit = (mouse_cap & 1) && !last_cap && inside;
+  hit;
+);
+
+// expandable section header bar: returns 1 on click
+function section_header(x, y, w, h, label, open) local(hit, tw, th, inside, pressed) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  pressed = (mouse_cap & 1) && inside;
+  bevel(x, y, w, h, 0.24, 0.24, 0.31, pressed);
+  gfx_set(0.9, 0.9, 0.9);
+  open ? gfx_triangle(x + 8, y + 7, x + 18, y + 7, x + 13, y + 15)
+       : gfx_triangle(x + 9, y + 5, x + 9, y + 17, x + 17, y + 11);
+  gfx_measurestr(label, tw, th);
+  gfx_x = x + 26;
+  gfx_y = y + (h - th) / 2;
+  gfx_drawstr(label);
+  hit = (mouse_cap & 1) && !last_cap && inside;
+  hit;
+);
+
+// vertical fader: returns the new value. Drag to set, Ctrl/Cmd-click to reset.
+function fader(x, ytop, ybot, label, val, vmin, vmax, vstep, vdef, id)
+  local(xc, t, yh, y0, inside, clicked, tw, th) (
+  xc = x + 15;
+
+  inside = mouse_x >= x && mouse_x < x + 30 && mouse_y >= ytop - 8 && mouse_y <= ybot + 8;
+  clicked = (mouse_cap & 1) && !last_cap && inside;
+  clicked ? ( (mouse_cap & 4) ? (val = vdef) : (drag_id = id); );
+
+  (drag_id == id && (mouse_cap & 1)) ? (
+    t = (ybot - mouse_y) / (ybot - ytop);
+    t = max(0, min(1, t));
+    val = vmin + t * (vmax - vmin);
+    val = floor(val / vstep + 0.5) * vstep;
+    val = max(vmin, min(vmax, val));
+  );
+
+  t  = (val - vmin) / (vmax - vmin);
+  yh = ybot - t * (ybot - ytop);
+
+  // groove (sunken) and fill
+  gfx_set(0.05, 0.05, 0.05);
+  gfx_rect(xc - 2, ytop, 4, ybot - ytop);
+  inset(xc - 2, ytop, 4, ybot - ytop);
+  gfx_set(0.15, 0.65, 0.3);
+  gfx_rect(xc - 2, yh, 4, ybot - yh);
+
+  // 0 dB tick, when 0 is inside the range
+  (vmin < 0 && vmax > 0) ? (
+    y0 = ybot - ((0 - vmin) / (vmax - vmin)) * (ybot - ytop);
+    gfx_set(0.6, 0.6, 0.6);
+    gfx_rect(xc - 11, y0, 22, 1);
+  );
+
+  // handle: raised cap with a grip line (pushed in while dragging)
+  bevel(xc - 13, yh - 6, 26, 12, 0.78, 0.78, 0.80, drag_id == id && (mouse_cap & 1));
+  gfx_set(0.1, 0.1, 0.1);
+  gfx_rect(xc - 9, yh, 18, 1);
+  gfx_set(1, 1, 1, 0.5);
+  gfx_rect(xc - 9, yh + 1, 18, 1);
+  gfx_a = 1;
+
+  // label above the track, value below
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_measurestr(label, tw, th);
+  gfx_x = xc - tw / 2;  gfx_y = ytop - 22;
+  gfx_drawstr(label);
+
+  vstep >= 1 ? sprintf(#vs, "%.0f", val) : sprintf(#vs, "%.1f", val);
+  gfx_measurestr(#vs, tw, th);
+  gfx_x = xc - tw / 2;  gfx_y = ybot + 10;
+  gfx_drawstr(#vs);
+
+  val;
+);
+
+// speaker on/off button: green = on, red = muted, dark = not part of the active layout
+function spk_btn(x, y, w, h, label, on, avail) local(hit, tw, th) (
+  avail ? (on ? gfx_set(0.15, 0.65, 0.3) : gfx_set(0.6, 0.2, 0.2)) : gfx_set(0.17, 0.17, 0.17);
+  gfx_rect(x, y, w, h);
+  avail ? gfx_set(1, 1, 1) : gfx_set(0.4, 0.4, 0.4);
+  gfx_measurestr(label, tw, th);
+  gfx_x = x + (w - tw) / 2;
+  gfx_y = y + (h - th) / 2;
+  gfx_drawstr(label);
+  hit = avail && (mouse_cap & 1) && !last_cap &&
+        mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  hit;
+);
+
+// monitor source button: blue = selected
+function src_btn(x, y, w, h, label, on) local(hit, tw, th, inside, pressed, o) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  pressed = (mouse_cap & 1) && inside;
+  on ? bevel(x, y, w, h, 0.20, 0.45, 0.85, pressed) : bevel(x, y, w, h, 0.30, 0.30, 0.30, pressed);
+  o = pressed ? 1 : 0;
+  gfx_measurestr(label, tw, th);
+  gfx_set(0, 0, 0, 0.6);
+  gfx_x = x + (w - tw) / 2 + o + 1;  gfx_y = y + (h - th) / 2 + o + 1;
+  gfx_drawstr(label);
+  gfx_set(1, 1, 1);
+  gfx_x = x + (w - tw) / 2 + o;      gfx_y = y + (h - th) / 2 + o;
+  gfx_drawstr(label);
+  hit = (mouse_cap & 1) && !last_cap && inside;
+  hit;
+);
+
+// vertical meter bar, 7 px wide, -60..0 dB
+function vmeter(x, ytop, ybot, a) local(db, h) (
+  db = a > 0.000001 ? 20 * log10(a) : -120;
+  h  = max(0, min(1, (db + 60) / 60)) * (ybot - ytop);
+  gfx_set(0.07, 0.07, 0.07);
+  gfx_rect(x, ytop, 7, ybot - ytop);
+  inset(x, ytop, 7, ybot - ytop);
+  a > 0.7 ? gfx_set(0.9, 0.2, 0.2) : (a > 0.25 ? gfx_set(0.9, 0.8, 0.2) : gfx_set(0.2, 0.8, 0.35));
+  gfx_rect(x, ybot - h, 7, h);
+);
+
+// horizontal meter bar, 7 px tall, -60..0 dB
+function hmeter(x, y, w, a) local(db, t) (
+  db = a > 0.000001 ? 20 * log10(a) : -120;
+  t  = max(0, min(1, (db + 60) / 60));
+  gfx_set(0.07, 0.07, 0.07);
+  gfx_rect(x, y, w, 7);
+  inset(x, y, w, 7);
+  a > 0.7 ? gfx_set(0.9, 0.2, 0.2) : (a > 0.25 ? gfx_set(0.9, 0.8, 0.2) : gfx_set(0.2, 0.8, 0.35));
+  gfx_rect(x, y, w * t, 7);
+);
+
+// vertical meter bar of any width, -60..0 dB
+function vbar(x, ytop, ybot, w, a) local(db, h) (
+  db = a > 0.000001 ? 20 * log10(a) : -120;
+  h  = max(0, min(1, (db + 60) / 60)) * (ybot - ytop);
+  gfx_set(0.07, 0.07, 0.07);
+  gfx_rect(x, ytop, w, ybot - ytop);
+  inset(x, ytop, w, ybot - ytop);
+  a > 0.7 ? gfx_set(0.9, 0.2, 0.2) : (a > 0.25 ? gfx_set(0.9, 0.8, 0.2) : gfx_set(0.2, 0.8, 0.35));
+  gfx_rect(x, ybot - h, w, h);
+);
+
+// speaker button for the layout map: on/off with a small vertical level bar on its right edge.
+// green = on, red = muted, dark = not part of the active layout. Returns 1 on click.
+function spk_map(x, y, w, h, label, on, avail, a)
+  local(hit, tw, th, db, mh, inside, pressed, o) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  pressed = avail && (mouse_cap & 1) && inside;
+  avail ? (on ? bevel(x, y, w, h, 0.15, 0.65, 0.30, pressed) : bevel(x, y, w, h, 0.62, 0.20, 0.20, pressed))
+        : bevel(x, y, w, h, 0.17, 0.17, 0.17, 0);
+
+  (avail && on) ? (
+    db = a > 0.000001 ? 20 * log10(a) : -120;
+    mh = max(0, min(1, (db + 60) / 60)) * (h - 4);
+    gfx_set(0.05, 0.2, 0.1);
+    gfx_rect(x + w - 7, y + 2, 5, h - 4);
+    a > 0.7 ? gfx_set(1, 0.3, 0.3) : (a > 0.25 ? gfx_set(1, 0.9, 0.3) : gfx_set(0.7, 1, 0.75));
+    gfx_rect(x + w - 7, y + 2 + (h - 4) - mh, 5, mh);
+  );
+
+  o = pressed ? 1 : 0;
+  gfx_measurestr(label, tw, th);
+  avail ? gfx_set(0, 0, 0, 0.6) : gfx_set(0, 0, 0, 0.0);
+  gfx_x = x + (w - 8 - tw) / 2 + o + 1;  gfx_y = y + (h - th) / 2 + o + 1;
+  gfx_drawstr(label);
+  avail ? gfx_set(1, 1, 1) : gfx_set(0.4, 0.4, 0.4);
+  gfx_x = x + (w - 8 - tw) / 2 + o;      gfx_y = y + (h - th) / 2 + o;
+  gfx_drawstr(label);
+
+  hit = avail && (mouse_cap & 1) && !last_cap && inside;
+  hit;
+);
+
+// editable value field: double-click to type, mouse wheel to step, Ctrl/Cmd-click to reset.
+// fmt: 0 = "80 Hz", 1 = "0.0 dB", 2 = plain integer. Returns the new value.
+function valfield(x, y, w, h, val, vmin, vmax, vdef, step, fmt, fid)
+  local(inside, clicked, c, ev, tw, th) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  clicked = (mouse_cap & 1) && !last_cap;
+
+  (edit_id == fid) ? (
+    // ---- typing mode ----
+    clicked && !inside ? ( edit_id = 0; );
+    while ((c = gfx_getchar()) > 0) (
+      ((c >= 48 && c <= 57) || c == 46 || c == 45) ? (
+        strlen(#ebuf) < 8 ? ( sprintf(#ech, "%c", c); strcat(#ebuf, #ech); );
+      ) : (c == 8) ? (
+        strcpy_substr(#etmp, #ebuf, 0, max(0, strlen(#ebuf) - 1));
+        strcpy(#ebuf, #etmp);
+      ) : (c == 13) ? (
+        match("%f", #ebuf, ev) ? ( val = ev; );
+        edit_id = 0;
+      ) : (c == 27) ? (
+        edit_id = 0;
+      );
+    );
+  ) : (
+    // ---- normal mode ----
+    clicked && inside ? (
+      (mouse_cap & 4) ? ( val = vdef; ) : (
+        ((fcount - last_click_f) < 15 && last_click_id == fid) ? (
+          edit_id = fid;
+          strcpy(#ebuf, "");
+          last_click_f = -1000;
+        ) : ( last_click_f = fcount;  last_click_id = fid; );
+      );
+    );
+    (inside && mouse_wheel != 0) ? (
+      val += (mouse_wheel > 0 ? step : -step);
+      mouse_wheel = 0;
+    );
+  );
+
+  val = max(vmin, min(vmax, val));
+  val = floor(val / step + 0.5) * step;
+
+  // ---- draw ----
+  (edit_id == fid) ? (
+    gfx_set(0.95, 0.95, 0.95);
+    gfx_rect(x, y, w, h);
+    inset(x, y, w, h);
+    gfx_set(0, 0, 0);
+    sprintf(#vf, "%s_", #ebuf);
+  ) : (
+    gfx_set(0.07, 0.07, 0.07);
+    gfx_rect(x, y, w, h);
+    inset(x, y, w, h);
+    gfx_set(0.85, 0.85, 0.85);
+    fmt == 0 ? sprintf(#vf, "%.0f Hz", val) : (fmt == 1 ? sprintf(#vf, "%.1f dB", val) : sprintf(#vf, "%.0f", val));
+  );
+  gfx_measurestr(#vf, tw, th);
+  gfx_x = x + (w - tw) / 2;
+  gfx_y = y + (h - th) / 2;
+  gfx_drawstr(#vf);
+
+  val;
+);
+
+// talkback button: red = live
+function talk_btn(x, y, w, h, label, on) local(hit, tw, th, inside, pressed, o) (
+  inside  = mouse_x >= x && mouse_x < x + w && mouse_y >= y && mouse_y < y + h;
+  pressed = (mouse_cap & 1) && inside;
+  on ? bevel(x, y, w, h, 0.85, 0.20, 0.20, pressed) : bevel(x, y, w, h, 0.30, 0.30, 0.30, pressed);
+  o = pressed ? 1 : 0;
+  gfx_measurestr(label, tw, th);
+  gfx_set(0, 0, 0, 0.6);
+  gfx_x = x + (w - tw) / 2 + o + 1;  gfx_y = y + (h - th) / 2 + o + 1;
+  gfx_drawstr(label);
+  gfx_set(1, 1, 1);
+  gfx_x = x + (w - tw) / 2 + o;      gfx_y = y + (h - th) / 2 + o;
+  gfx_drawstr(label);
+  hit = (mouse_cap & 1) && !last_cap && inside;
+  hit;
+);
+
+// compact horizontal fader: groove, bevelled handle, value text to the right. Returns the new value.
+function hfader2(x, y, w, val, vmin, vmax, vstep, vdef, id)
+  local(t, xh, inside, clicked, x0db) (
+  inside  = mouse_x >= x - 5 && mouse_x <= x + w + 5 && mouse_y >= y && mouse_y < y + 22;
+  clicked = (mouse_cap & 1) && !last_cap && inside;
+  clicked ? ( (mouse_cap & 4) ? (val = vdef) : (drag_id = id); );
+
+  (drag_id == id && (mouse_cap & 1)) ? (
+    t = (mouse_x - x) / w;
+    t = max(0, min(1, t));
+    val = vmin + t * (vmax - vmin);
+    val = floor(val / vstep + 0.5) * vstep;
+    val = max(vmin, min(vmax, val));
+  );
+
+  t  = (val - vmin) / (vmax - vmin);
+  xh = x + t * w;
+
+  gfx_set(0.05, 0.05, 0.05);
+  gfx_rect(x, y + 9, w, 4);
+  inset(x, y + 9, w, 4);
+  gfx_set(0.15, 0.65, 0.3);
+  gfx_rect(x, y + 9, xh - x, 4);
+
+  (vmin < 0 && vmax > 0) ? (
+    x0db = x + ((0 - vmin) / (vmax - vmin)) * w;
+    gfx_set(0.6, 0.6, 0.6);
+    gfx_rect(x0db, y + 5, 1, 12);
+  );
+
+  bevel(xh - 5, y + 2, 10, 18, 0.78, 0.78, 0.80, drag_id == id && (mouse_cap & 1));
+  gfx_set(0.1, 0.1, 0.1);
+  gfx_rect(xh, y + 6, 1, 10);
+  gfx_set(1, 1, 1, 0.5);
+  gfx_rect(xh + 1, y + 6, 1, 10);
+  gfx_a = 1;
+
+  sprintf(#hv2, "%.1f", val);
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = x + w + 6;  gfx_y = y + 5;
+  gfx_drawstr(#hv2);
+
+  val;
+);
+
+// dB scale for a vertical meter (0 to -60 dB, every 10 dB): ticks and labels on both sides of the bars
+function dbscale(xl, xr, ytop, ybot) local(d, y, tw, th) (
+  d = 0;
+  loop(7,
+    y = ybot - ((d + 60) / 60) * (ybot - ytop);
+    gfx_set(0.55, 0.55, 0.58);
+    gfx_rect(xl - 3, y, 3, 1);
+    gfx_rect(xr + 1, y, 3, 1);
+    sprintf(#dbt, "%.0f", d);
+    gfx_measurestr(#dbt, tw, th);
+    gfx_x = xl - 5 - tw;  gfx_y = y - th / 2;  gfx_drawstr(#dbt);
+    gfx_x = xr + 6;       gfx_y = y - th / 2;  gfx_drawstr(#dbt);
+    d -= 10;
+  );
+);
+
+// Rotary knob with double-click-to-type value field. Returns the new value.
+// Drag = turn, Shift = fine, wheel = step, Ctrl/Cmd-click = reset, double-click value = type.
+function knob(cx, cy, r, label, val, vmin, vmax, vdef, kid)
+  local(fw, fh, fx, fy, span, t, dx, dy, in_k, in_f, clicked, c, ev,
+        i, a0, a1, rr, ang, tw, th, f, nt) (
+  fw = 58;  fh = 18;
+  fx = cx - fw / 2;  fy = cy + 50;
+  span = vmax - vmin;
+
+  dx = mouse_x - cx;  dy = mouse_y - cy;
+  in_k = sqrt(dx * dx + dy * dy) <= r + 8;
+  in_f = mouse_x >= fx && mouse_x < fx + fw && mouse_y >= fy && mouse_y < fy + fh;
+  clicked = (mouse_cap & 1) && !last_cap;
+
+  (edit_id == kid) ? (
+    // ---- typing mode ----
+    clicked && !in_f ? ( edit_id = 0; );
+    while ((c = gfx_getchar()) > 0) (
+      ((c >= 48 && c <= 57) || c == 46 || c == 45) ? (
+        strlen(#ebuf) < 8 ? ( sprintf(#ech, "%c", c); strcat(#ebuf, #ech); );
+      ) : (c == 8) ? (
+        strcpy_substr(#etmp, #ebuf, 0, max(0, strlen(#ebuf) - 1));
+        strcpy(#ebuf, #etmp);
+      ) : (c == 13) ? (
+        match("%f", #ebuf, ev) ? ( val = ev; );
+        edit_id = 0;
+      ) : (c == 27) ? (
+        edit_id = 0;
+      );
+    );
+  ) : (
+    // ---- normal mode ----
+    clicked && in_f ? (
+      ((fcount - last_click_f) < 15 && last_click_id == kid) ? (
+        edit_id = kid;
+        strcpy(#ebuf, "");
+        last_click_f = -1000;
+      ) : ( last_click_f = fcount; last_click_id = kid; );
+    );
+    clicked && in_k ? (
+      (mouse_cap & 4) ? ( val = vdef; ) : ( drag_id = kid; klast_y = mouse_y; );
+    );
+    (drag_id == kid && (mouse_cap & 1)) ? (
+      val += (klast_y - mouse_y) * (span / 220) * ((mouse_cap & 8) ? 0.1 : 1);
+      klast_y = mouse_y;
+    );
+    (in_k && mouse_wheel != 0) ? (
+      val += (mouse_wheel > 0 ? 1 : -1) * span / 130;
+      mouse_wheel = 0;
+    );
+  );
+
+  val = max(vmin, min(vmax, val));
+
+  // ---- draw ----
+  t = (val - vmin) / span;
+
+  kstyle == 1 ? (
+    // ---- SSL-style main level knob: black knurled cylinder, white pointer line, printed scale ring ----
+    // scale ticks every 6 dB (long ticks at -60, -30, 0 and +6)
+    nt = floor(span / 6) + 1;
+    i = 0;
+    loop(nt,
+      a0 = (-135 + 270 * (i * 6) / span) * $pi / 180;
+      f  = (i % 5 == 0 || i == nt - 1) ? max(5, r * 0.22) : max(3, r * 0.12);
+      gfx_set(0.80, 0.80, 0.82);
+      gfx_line(cx + sin(a0) * (r + 5), cy - cos(a0) * (r + 5), cx + sin(a0) * (r + 5 + f), cy - cos(a0) * (r + 5 + f));
+      i += 1;
+    );
+
+    // skirt, knurled edge and flat top
+    gfx_set(0.02, 0.02, 0.02);
+    gfx_circle(cx, cy, r + 3, 1, 1);
+    gfx_set(0.15, 0.15, 0.16);
+    gfx_circle(cx, cy, r, 1, 1);
+    i = 0;
+    loop(48,
+      a0 = i * 2 * $pi / 48;
+      gfx_set(0.04, 0.04, 0.04);
+      gfx_line(cx + sin(a0) * (r - 5), cy - cos(a0) * (r - 5), cx + sin(a0) * (r - 1), cy - cos(a0) * (r - 1));
+      i += 1;
+    );
+    gfx_set(0.075, 0.075, 0.08);
+    gfx_circle(cx, cy, r - 6, 1, 1);
+    gfx_set(0.105, 0.105, 0.115);
+    gfx_circle(cx - 3, cy - 3, r - 16, 1, 1);
+    gfx_set(0.085, 0.085, 0.09);
+    gfx_circle(cx, cy, r - 20, 1, 1);
+
+    // white pointer line, from near the centre out to the edge of the top
+    ang = (-135 + 270 * t) * $pi / 180;
+    gfx_set(0.96, 0.96, 0.96);
+    gfx_line(cx + sin(ang) * (r * 0.30), cy - cos(ang) * (r * 0.30), cx + sin(ang) * (r - 5), cy - cos(ang) * (r - 5));
+    gfx_line(cx + sin(ang) * (r * 0.30) + 1, cy - cos(ang) * (r * 0.30), cx + sin(ang) * (r - 5) + 1, cy - cos(ang) * (r - 5));
+    gfx_line(cx + sin(ang) * (r * 0.30), cy - cos(ang) * (r * 0.30) + 1, cx + sin(ang) * (r - 5), cy - cos(ang) * (r - 5) + 1);
+  ) : (
+    // arc track + value arc (drawn as short line segments)
+    i = 0;
+    loop(60,
+      a0 = (-135 + 270 * i / 60) * $pi / 180;
+      a1 = (-135 + 270 * (i + 1) / 60) * $pi / 180;
+      (i / 60 <= t) ? gfx_set(0.15, 0.65, 0.3) : gfx_set(0.3, 0.3, 0.3);
+      rr = r + 5;
+      gfx_line(cx + sin(a0) * rr, cy - cos(a0) * rr, cx + sin(a1) * rr, cy - cos(a1) * rr);
+      rr = r + 6;
+      gfx_line(cx + sin(a0) * rr, cy - cos(a0) * rr, cx + sin(a1) * rr, cy - cos(a1) * rr);
+      i += 1;
+    );
+
+    // knob body: dark rim, then a lit dome (lighter toward the upper left)
+    gfx_set(0.04, 0.04, 0.04);
+    gfx_circle(cx, cy, r + 1, 1, 1);
+    i = 0;
+    loop(6,
+      f = 0.20 + 0.09 * i;
+      gfx_set(f, f, f + 0.02);
+      gfx_circle(cx - i * r * 0.05, cy - i * r * 0.05, r - 1 - i * (r - 4) / 6, 1, 1);
+      i += 1;
+    );
+    ang = (-135 + 270 * t) * $pi / 180;
+    gfx_set(0.9, 0.9, 0.9);
+    gfx_line(cx + sin(ang) * 6, cy - cos(ang) * 6, cx + sin(ang) * (r - 3), cy - cos(ang) * (r - 3));
+    gfx_line(cx + sin(ang) * 6 + 1, cy - cos(ang) * 6, cx + sin(ang) * (r - 3) + 1, cy - cos(ang) * (r - 3));
+  );
+
+  // label and scale ends
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_measurestr(label, tw, th);
+  gfx_x = cx - tw / 2;  gfx_y = cy - 64;
+  gfx_drawstr(label);
+  gfx_set(0.6, 0.6, 0.6);
+  sprintf(#smin, "%.0f", vmin);
+  vmax > 0 ? sprintf(#smax, "+%.0f", vmax) : sprintf(#smax, "%.0f", vmax);
+  gfx_x = cx - r - 7;  gfx_y = min(cy + r + 8, cy + 36);  gfx_drawstr(#smin);
+  gfx_x = cx + r - 8;  gfx_y = min(cy + r + 8, cy + 36);  gfx_drawstr(#smax);
+
+  // value field
+  (edit_id == kid) ? (
+    gfx_set(0.95, 0.95, 0.95);
+    gfx_rect(fx, fy, fw, fh);
+    inset(fx, fy, fw, fh);
+    gfx_set(0, 0, 0);
+    sprintf(#mv, "%s_", #ebuf);
+  ) : (
+    gfx_set(0.07, 0.07, 0.07);
+    gfx_rect(fx, fy, fw, fh);
+    inset(fx, fy, fw, fh);
+    gfx_set(0.85, 0.85, 0.85);
+    sprintf(#mv, "%.1f dB", val);
+  );
+  gfx_measurestr(#mv, tw, th);
+  gfx_x = fx + (fw - tw) / 2;
+  gfx_y = fy + (fh - th) / 2;
+  gfx_drawstr(#mv);
+
+  val;
+);
+
+// ================= HEADPHONES SECTION (top, expandable) =================
+hpo = slider41 ? 1 : 0;
+spo = slider42 ? 1 : 0;
+co1 = slider76 ? 1 : 0;
+co2 = slider77 ? 1 : 0;
+co3 = slider78 ? 1 : 0;
+co4 = slider79 ? 1 : 0;
+co5 = slider80 ? 1 : 0;
+co6 = slider81 ? 1 : 0;
+bmo = slider38 ? 1 : 0;
+sto = slider132 ? 1 : 0;
+// section order, top to bottom: CUES (master + CUE 1-6), MAIN MONITORS, HEADPHONES, STUDIO MONITORS, BASS MANAGEMENT, INPUT BUS, ROUTING, OUTPUT BUS
+ico = slider141 ? 1 : 0;
+oco = slider142 ? 1 : 0;
+cuo = slider147 ? 1 : 0;
+ycs = 10;                                    // CUES (master) header y
+yc1 = ycs + 130;                             // CUE 1-6 sub-sections sit under the cues master controls
+ncue = max(0, min(6, slider164 | 0));  next = max(0, min(6, slider165 | 0));  nmon = max(1, min(6, slider166 | 0));
+yc2 = yc1 + (1 <= ncue ? (co1 ? 160 : 28) : 0);
+yc3 = yc2 + (2 <= ncue ? (co2 ? 160 : 28) : 0);
+yc4 = yc3 + (3 <= ncue ? (co3 ? 160 : 28) : 0);
+yc5 = yc4 + (4 <= ncue ? (co4 ? 160 : 28) : 0);
+yc6 = yc5 + (5 <= ncue ? (co5 ? 160 : 28) : 0);
+ycE = cuo ? (yc6 + (6 <= ncue ? (co6 ? 160 : 28) : 0)) : (ycs + 28);   // end of the cues block
+y2  = ycE;                                   // main monitors header y
+ys  = y2 + 28;                               // main monitors content top
+yp  = y2 + (spo ? 656 : 28);                 // headphones header y
+yh  = yp + 28;                               // headphones content top
+yst = yp + (hpo ? 233 : 28);                 // studio monitors header y
+yt  = yst + 28;                              // studio monitors content top
+yb  = yst + (sto ? 233 : 28);                // bass management header y
+yic = yb + (bmo ? 350 : 28);                 // input bus header y
+yr  = yic + (ico ? 178 : 28);                // routing header y
+rto = slider159 ? 1 : 0;
+// open routing section height: its last box ends 12 px past y = 964, minus the lines the counts remove
+yoc = yr + (rto ? 976 - ((6 - nmon) + (6 - ncue) + (6 - next)) * 26 : 28);   // output bus header y
+
+section_header(10, yp, 340, 22, "HEADPHONES", slider41) ?
+  ( slider41 = !slider41; slider_automate(slider41); );
+
+// summary on the header bar: current source and level
+hsrc = slider40 | 0;
+hsrc == 0 ? strcpy(#hn, "MIX") : (hsrc <= 6 ? sprintf(#hn, "CUE %d", hsrc) : sprintf(#hn, "EXT %d", hsrc - 6));
+sprintf(#hs, "%s   %.1f dB", #hn, slider39);
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#hs, hw0, hh0);
+gfx_x = 10 + 340 - 10 - hw0;  gfx_y = yp + 5;
+gfx_drawstr(#hs);
+
+hpo ? (
+  // sources in two columns (MIX + CUE 1-6 on the left, EXT 1-6 on the right), inside a thin border titled Source
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yh + 6,   188, 1);
+  gfx_rect(8,   yh + 198, 188, 1);
+  gfx_rect(8,   yh + 6,   1,   193);
+  gfx_rect(195, yh + 6,   1,   193);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yh, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yh;  gfx_drawstr("Source");
+  btn(12,  yh + 14 + 0*26, 88, 24, "MIX", slider40 == 0) ? ( slider40 = 0; slider_automate(slider40); );
+  1 <= ncue ? ( btn(12,  yh + 14 + 1*26, 88, 24, "CUE 1", slider40 == 1) ? ( slider40 = 1; slider_automate(slider40); ); );
+  2 <= ncue ? ( btn(12,  yh + 14 + 2*26, 88, 24, "CUE 2", slider40 == 2) ? ( slider40 = 2; slider_automate(slider40); ); );
+  3 <= ncue ? ( btn(12,  yh + 14 + 3*26, 88, 24, "CUE 3", slider40 == 3) ? ( slider40 = 3; slider_automate(slider40); ); );
+  4 <= ncue ? ( btn(12,  yh + 14 + 4*26, 88, 24, "CUE 4", slider40 == 4) ? ( slider40 = 4; slider_automate(slider40); ); );
+  5 <= ncue ? ( btn(12,  yh + 14 + 5*26, 88, 24, "CUE 5", slider40 == 5) ? ( slider40 = 5; slider_automate(slider40); ); );
+  6 <= ncue ? ( btn(12,  yh + 14 + 6*26, 88, 24, "CUE 6", slider40 == 6) ? ( slider40 = 6; slider_automate(slider40); ); );
+  1 <= next ? ( btn(104, yh + 14 + 1*26, 88, 24, "EXT 1", slider40 == 7) ? ( slider40 = 7; slider_automate(slider40); ); );
+  2 <= next ? ( btn(104, yh + 14 + 2*26, 88, 24, "EXT 2", slider40 == 8) ? ( slider40 = 8; slider_automate(slider40); ); );
+  3 <= next ? ( btn(104, yh + 14 + 3*26, 88, 24, "EXT 3", slider40 == 9) ? ( slider40 = 9; slider_automate(slider40); ); );
+  4 <= next ? ( btn(104, yh + 14 + 4*26, 88, 24, "EXT 4", slider40 == 10) ? ( slider40 = 10; slider_automate(slider40); ); );
+  5 <= next ? ( btn(104, yh + 14 + 5*26, 88, 24, "EXT 5", slider40 == 11) ? ( slider40 = 11; slider_automate(slider40); ); );
+  6 <= next ? ( btn(104, yh + 14 + 6*26, 88, 24, "EXT 6", slider40 == 12) ? ( slider40 = 12; slider_automate(slider40); ); );
+
+  // headphone level knob
+  kstyle = 1;
+  v = knob(252, yh + 72, 28, "LEVEL", slider39, -60, 6, -20, 33);
+  kstyle = 0;
+  v != slider39 ? ( slider39 = v; slider_automate(slider39); );
+  // DIM stacked over MUTE, right under the level control
+  btn(220, yh + 146, 64, 22, "DIM",  slider144) ? ( slider144 = !slider144; slider_automate(slider144); );
+  btn(220, yh + 170, 64, 22, "MUTE", slider143) ? ( slider143 = !slider143; slider_automate(slider143); );
+
+  // vertical stereo output meter on the right
+  vbar(308, yh + 10, yh + 168, 16, mem[282]);
+  vbar(328, yh + 10, yh + 168, 16, mem[283]);
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_x = 304;  gfx_y = yh + 170;  gfx_drawstr("HP OUT");
+);
+
+// ================= SPEAKER MONITOR SECTION (expandable) =================
+section_header(10, y2, 340, 22, "MAIN MONITORS", slider42) ?
+  ( slider42 = !slider42; slider_automate(slider42); );
+
+// summary on the header bar: speaker set, monitor source and level, active switches
+gset = min(slider1 | 0, nmon - 1);
+gaf = mfmt(gset);  fmt_str(gaf);  strcpy(#sn, #fnm);
+gms = slider63 | 0;
+gms == 0 ? strcpy(#mn, "MIX") : (gms <= 6 ? sprintf(#mn, "CUE %d", gms) : sprintf(#mn, "EXT %d", gms - 6));
+sprintf(#ss, "%s  [%s]   %.1f dB", #sn, #mn, slider6);
+slider2 ? strcat(#ss, "   DIM");
+slider4 ? strcat(#ss, "   MONO");
+slider5 ? strcat(#ss, "   MUTE");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#ss, sw0, sh0);
+sw0 > 190 ? ( sprintf(#ss, "%s [%s]", #sn, #mn); gfx_measurestr(#ss, sw0, sh0); );
+gfx_x = 10 + 340 - 10 - sw0;  gfx_y = y2 + 5;
+gfx_drawstr(#ss);
+
+spo ? (
+  // main monitor source in two columns (blue = selected), inside a thin border titled Source
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   ys + 2,   340, 1);      // top edge 4 px higher, so the IN LEVEL title no longer touches it
+  gfx_rect(8,   ys + 198, 340, 1);
+  gfx_rect(8,   ys + 2,   1,   197);
+  gfx_rect(347, ys + 2,   1,   197);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, ys - 4, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = ys - 4;  gfx_drawstr("Source");
+  src_btn(12,  ys + 14 + 0*26, 88, 24, "MIX", slider63 == 0) ? ( slider63 = 0; slider_automate(slider63); );
+  1 <= ncue ? ( src_btn(12,  ys + 14 + 1*26, 88, 24, "CUE 1", slider63 == 1) ? ( slider63 = 1; slider_automate(slider63); ); );
+  2 <= ncue ? ( src_btn(12,  ys + 14 + 2*26, 88, 24, "CUE 2", slider63 == 2) ? ( slider63 = 2; slider_automate(slider63); ); );
+  3 <= ncue ? ( src_btn(12,  ys + 14 + 3*26, 88, 24, "CUE 3", slider63 == 3) ? ( slider63 = 3; slider_automate(slider63); ); );
+  4 <= ncue ? ( src_btn(12,  ys + 14 + 4*26, 88, 24, "CUE 4", slider63 == 4) ? ( slider63 = 4; slider_automate(slider63); ); );
+  5 <= ncue ? ( src_btn(12,  ys + 14 + 5*26, 88, 24, "CUE 5", slider63 == 5) ? ( slider63 = 5; slider_automate(slider63); ); );
+  6 <= ncue ? ( src_btn(12,  ys + 14 + 6*26, 88, 24, "CUE 6", slider63 == 6) ? ( slider63 = 6; slider_automate(slider63); ); );
+  1 <= next ? ( src_btn(104, ys + 14 + 1*26, 88, 24, "EXT 1", slider63 == 7) ? ( slider63 = 7; slider_automate(slider63); ); );
+  2 <= next ? ( src_btn(104, ys + 14 + 2*26, 88, 24, "EXT 2", slider63 == 8) ? ( slider63 = 8; slider_automate(slider63); ); );
+  3 <= next ? ( src_btn(104, ys + 14 + 3*26, 88, 24, "EXT 3", slider63 == 9) ? ( slider63 = 9; slider_automate(slider63); ); );
+  4 <= next ? ( src_btn(104, ys + 14 + 4*26, 88, 24, "EXT 4", slider63 == 10) ? ( slider63 = 10; slider_automate(slider63); ); );
+  5 <= next ? ( src_btn(104, ys + 14 + 5*26, 88, 24, "EXT 5", slider63 == 11) ? ( slider63 = 11; slider_automate(slider63); ); );
+  6 <= next ? ( src_btn(104, ys + 14 + 6*26, 88, 24, "EXT 6", slider63 == 12) ? ( slider63 = 12; slider_automate(slider63); ); );
+
+  // source level meter, to the right of the source selector: 13 bars for the mix, 14 for EXT 1, 2 for a cue or other EXT pair
+  gsn = slider63 == 0 ? fmt_n(max(0, min(5, slider174 | 0))) : (slider63 >= 7 ? max(1, mem[1520 + slider63 - 7]) : 2);
+  gsp = 6;                               // fixed bar pitch (4 px bars)
+  gsx = floor(271 - (gsn * gsp - 2) / 2);   // centred on the widest version (14 bars: 230..312), so it grows and shrinks both ways
+  gsr = gsx + gsn * gsp - 2;             // right edge of the last bar
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("IN LEVEL", gtw, gth);
+  gfx_x = (gsx + gsr) / 2 - gtw / 2;  gfx_y = ys + 8;  gfx_drawstr("IN LEVEL");
+  gmi = 0;
+  loop(gsn, vbar(gsx + gmi * gsp, ys + 28, ys + 178, gsp - 2, mem[200 + (slider63 == 0 ? fmt_idx(max(0, min(5, slider174 | 0)), gmi) : gmi)]); gmi += 1;);
+  dbscale(gsx, gsr, ys + 28, ys + 178);
+
+  // speaker layout map (top view). Each speaker is an on/off button with its own level bar.
+  mx = 136;  my = ys + 222;  cxm = 236;
+
+  // "Destination" border around the speaker set buttons and the speaker map
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   my - 8,   340, 1);
+  gfx_rect(8,   my + 190, 340, 1);
+  gfx_rect(8,   my - 8,   1,   199);
+  gfx_rect(347, my - 8,   1,   199);
+  gfx_measurestr("Destination", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, my - 14, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = my - 14;  gfx_drawstr("Destination");
+
+  gfx_set(0.10, 0.10, 0.10);
+  gfx_rect(mx, my, 200, 182);
+  inset(mx, my, 200, 182);
+  gfx_set(0.35, 0.35, 0.35);
+  gfx_circle(cxm, my + 98, 8, 1, 1);
+  gnsp = fmt_n(gaf) + (gaf >= 4 ? 2 : 0);
+  fmt_has(gaf, 2) ? ( spk_map(cxm - 22, my + 2, 44, 26, "C", slider45, (1), mem[202]) ? ( slider45 = !slider45; slider_automate(slider45); ); );
+  fmt_has(gaf, 0) ? ( spk_map(cxm - 80, my + 30, 44, 26, "L", slider43, (1), mem[200]) ? ( slider43 = !slider43; slider_automate(slider43); ); );
+  fmt_has(gaf, 1) ? ( spk_map(cxm + 36, my + 30, 44, 26, "R", slider44, (1), mem[201]) ? ( slider44 = !slider44; slider_automate(slider44); ); );
+  fmt_has(gaf, 3) ? ( spk_map(cxm - 95, my + 2, 40, 22, "LF1", slider46, (1), mem[203]) ? ( slider46 = !slider46; slider_automate(slider46); ); );
+  fmt_has(gaf, 4) ? ( spk_map(cxm + 55, my + 2, 40, 22, "LF2", slider47, (1), mem[204]) ? ( slider47 = !slider47; slider_automate(slider47); ); );
+  fmt_has(gaf, 5) ? ( spk_map(cxm - 95, my + 86, 44, 26, "Lss", slider48, (1), mem[205]) ? ( slider48 = !slider48; slider_automate(slider48); ); );
+  fmt_has(gaf, 6) ? ( spk_map(cxm + 51, my + 86, 44, 26, "Rss", slider49, (1), mem[206]) ? ( slider49 = !slider49; slider_automate(slider49); ); );
+  fmt_has(gaf, 7) ? ( spk_map(cxm - 80, my + 152, 44, 26, "Lrs", slider50, (1), mem[207]) ? ( slider50 = !slider50; slider_automate(slider50); ); );
+  fmt_has(gaf, 8) ? ( spk_map(cxm + 36, my + 152, 44, 26, "Rrs", slider51, (1), mem[208]) ? ( slider51 = !slider51; slider_automate(slider51); ); );
+  fmt_has(gaf, 9) ? ( spk_map(cxm - 62, my + 62, 36, 22, "Ltf", slider52, (1), mem[209]) ? ( slider52 = !slider52; slider_automate(slider52); ); );
+  fmt_has(gaf, 10) ? ( spk_map(cxm + 26, my + 62, 36, 22, "Rtf", slider53, (1), mem[210]) ? ( slider53 = !slider53; slider_automate(slider53); ); );
+  fmt_has(gaf, 11) ? ( spk_map(cxm - 62, my + 116, 36, 22, "Ltr", slider54, (1), mem[211]) ? ( slider54 = !slider54; slider_automate(slider54); ); );
+  fmt_has(gaf, 12) ? ( spk_map(cxm + 26, my + 116, 36, 22, "Rtr", slider55, (1), mem[212]) ? ( slider55 = !slider55; slider_automate(slider55); ); );
+
+
+
+
+
+  // speaker set buttons, stacked vertically to the left of the speaker map
+  0 < nmon ? ( fmt_str(mfmt(0)); btn(14, my + 2 + 0*26, 88, 24, #fnm, slider1 == 0) ? ( slider1 = 0; slider_automate(slider1); ); );
+  1 < nmon ? ( fmt_str(mfmt(1)); btn(14, my + 2 + 1*26, 88, 24, #fnm, slider1 == 1) ? ( slider1 = 1; slider_automate(slider1); ); );
+  2 < nmon ? ( fmt_str(mfmt(2)); btn(14, my + 2 + 2*26, 88, 24, #fnm, slider1 == 2) ? ( slider1 = 2; slider_automate(slider1); ); );
+  3 < nmon ? ( fmt_str(mfmt(3)); btn(14, my + 2 + 3*26, 88, 24, #fnm, slider1 == 3) ? ( slider1 = 3; slider_automate(slider1); ); );
+  4 < nmon ? ( fmt_str(mfmt(4)); btn(14, my + 2 + 4*26, 88, 24, #fnm, slider1 == 4) ? ( slider1 = 4; slider_automate(slider1); ); );
+  5 < nmon ? ( fmt_str(mfmt(5)); btn(14, my + 2 + 5*26, 88, 24, #fnm, slider1 == 5) ? ( slider1 = 5; slider_automate(slider1); ); );
+
+  // monitor level controls at the bottom of the section: MON and DIM knobs with their buttons,
+  // and one post-monitor output meter bar per speaker output of the active layout
+  bb = ys + 426;
+  kstyle = 1;
+  v = knob(158, bb + 64, 34, "CONTROL ROOM", slider6, -60, 6, -12, 31);
+  kstyle = 0;
+  v != slider6 ? ( slider6 = v; slider_automate(slider6); );
+  // DIM level: small horizontal fader under the CONTROL ROOM knob
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 112;  gfx_y = bb + 142;  gfx_drawstr("DIM");
+  v = hfader2(112, bb + 156, 50, slider3, -60, 0, 0.5, -20, 32);
+  v != slider3 ? ( slider3 = v; slider_automate(slider3); );
+  btn(16,  bb + 48,  88, 24, "MUTE", slider5) ? ( slider5 = !slider5; slider_automate(slider5); );
+  btn(16,  bb + 76,  88, 24, "MONO", slider4) ? ( slider4 = !slider4; slider_automate(slider4); );
+  gtall = ncue > 0 && (1 <= ncue ? slider64 : 1) && (2 <= ncue ? slider65 : 1) && (3 <= ncue ? slider66 : 1) && (4 <= ncue ? slider67 : 1) && (5 <= ncue ? slider68 : 1) && (6 <= ncue ? slider69 : 1);
+  talk_btn(16, bb + 104, 88, 24, "TALKBACK", gtall) ? (
+    gtv = gtall ? 0 : 1;
+    slider64 = gtv; slider65 = gtv; slider66 = gtv; slider67 = gtv; slider68 = gtv; slider69 = gtv;
+    slider_automate(slider64); slider_automate(slider65); slider_automate(slider66);
+    slider_automate(slider67); slider_automate(slider68); slider_automate(slider69);
+  );
+  btn(16,  bb + 20,  88, 24, "DIM",  slider2) ? ( slider2 = !slider2; slider_automate(slider2); );
+
+  gmp = 6;                               // same fixed bar pitch as the IN LEVEL meter (4 px bars)
+  gmx = floor(271 - (gnsp * gmp - 2) / 2);   // same centre as the IN LEVEL meter, so the two stay aligned
+  gmr = gmx + gnsp * gmp - 2;            // right edge of the last bar
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("OUT LEVEL", gtw, gth);
+  gfx_x = (gmx + gmr) / 2 - gtw / 2;  gfx_y = bb;  gfx_drawstr("OUT LEVEL");
+  gmi = 0;
+  loop(gnsp, vbar(gmx + gmi * gmp, bb + 20, bb + 170, gmp - 2, mem[500 + gmi]); gmi += 1;);
+  dbscale(gmx, gmr, bb + 20, bb + 170);
+
+);
+
+// ================= INPUT CHECK SECTION (expandable) =================
+// One thin bar per master channel 1-64 as the plug-in receives it (before any processing).
+// Groups: MIX 1-13, T/L = talkback (15) and listen (16), CUES 17-28, EXT 1 29-42, EXT 2-4 43-48,
+// EXT 5/6 49-52, then 53-64 (nothing is routed there).
+// 64 bars, no partitions: pitch 5 px (4 px bars) from x = 20, centred in the 340 px section, 100 px tall.
+// Marks under the bars every 8 channels (1, 8, 16, ... 64).
+function chmarks(ytick) local(k, n, bx, tw, th) (
+  k = 0;
+  loop(9,
+    n = k == 0 ? 1 : k * 8;
+    bx = 20 + (n - 1) * 5 + 2;
+    gfx_set(0.55, 0.55, 0.58);
+    gfx_rect(bx, ytick, 1, 4);
+    sprintf(#chn, "%d", n);
+    gfx_measurestr(#chn, tw, th);
+    gfx_set(0.7, 0.7, 0.7);
+    gfx_x = bx + 1 - tw / 2;  gfx_y = ytick + 6;  gfx_drawstr(#chn);
+    k += 1;
+  );
+);
+
+section_header(10, yic, 340, 22, "INPUT BUS", slider141) ?
+  ( slider141 = !slider141; slider_automate(slider141); );
+
+// summary: how many of the 50 inputs have signal
+gicn = 0;
+gmi = 0;
+loop(64, (mem[600 + gmi] > 0.001) ? ( gicn += 1; ); gmi += 1;);
+sprintf(#ics, "%d of 64 active", gicn);
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#ics, icw0, ich0);
+gfx_x = 10 + 340 - 10 - icw0;  gfx_y = yic + 5;
+gfx_drawstr(#ics);
+
+ico ? (
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_x = 14;  gfx_y = yic + 30;  gfx_drawstr("RAW MASTER INPUTS 1-64 SEEN BY THE PLUG-IN");
+
+  gmi = 0;
+  loop(64, vbar(20 + gmi * 5, yic + 46, yic + 146, 4, mem[600 + gmi]); gmi += 1;);
+  chmarks(yic + 149);
+);
+
+// ================= OUTPUT CHECK SECTION (expandable) =================
+// One thin bar per plug-in output channel 1-64, as finally written (what goes to the hardware outputs).
+// Groups: SPK 1-14 (7.2.4 / 5.2 / Stereo A), PH = headphones 15/16, MON 3-5 = 17-22, MTR = meter 23/24,
+// CUES 49-60, STUDIO 63/64. Everything else should stay empty.
+
+section_header(10, yoc, 340, 22, "OUTPUT BUS", slider142) ?
+  ( slider142 = !slider142; slider_automate(slider142); );
+
+gocn = 0;
+gmi = 0;
+loop(64, (mem[700 + gmi] > 0.001) ? ( gocn += 1; ); gmi += 1;);
+sprintf(#ocs, "%d of 64 active", gocn);
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#ocs, ocw0, och0);
+gfx_x = 10 + 340 - 10 - ocw0;  gfx_y = yoc + 5;
+gfx_drawstr(#ocs);
+
+oco ? (
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_x = 14;  gfx_y = yoc + 30;  gfx_drawstr("PLUG-IN OUTPUTS 1-64 SENT TO THE HARDWARE");
+
+  gmi = 0;
+  loop(64, vbar(20 + gmi * 5, yoc + 46, yoc + 146, 4, mem[700 + gmi]); gmi += 1;);
+  chmarks(yoc + 149);
+);
+
+// ================= CUES (master) =================
+// Parent of the six cue sections: one header, plus master controls that act on every cue at once.
+section_header(10, ycs, 340, 22, "CUES", slider147) ?
+  ( slider147 = !slider147; slider_automate(slider147); );
+gcn = 0;
+(1 <= ncue && slider118) ? gcn += 1;  (2 <= ncue && slider119) ? gcn += 1;  (3 <= ncue && slider120) ? gcn += 1;
+(4 <= ncue && slider121) ? gcn += 1;  (5 <= ncue && slider122) ? gcn += 1;  (6 <= ncue && slider123) ? gcn += 1;
+sprintf(#cus, "%d of %d on   %.1f dB", gcn, ncue, slider148);
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cus, cuw0, cuh0);
+gfx_x = 10 + 340 - 10 - cuw0;  gfx_y = ycs + 5;
+gfx_drawstr(#cus);
+cuo ? (
+  btn(14,  ycs + 32, 84, 22, "ALL ON",  ncue > 0 && gcn == ncue) ? (
+    slider118 = 1; slider119 = 1; slider120 = 1; slider121 = 1; slider122 = 1; slider123 = 1;
+    slider_automate(slider118); slider_automate(slider119); slider_automate(slider120);
+    slider_automate(slider121); slider_automate(slider122); slider_automate(slider123);
+  );
+  btn(102, ycs + 32, 84, 22, "ALL OFF", ncue > 0 && gcn == 0) ? (
+    slider118 = 0; slider119 = 0; slider120 = 0; slider121 = 0; slider122 = 0; slider123 = 0;
+    slider_automate(slider118); slider_automate(slider119); slider_automate(slider120);
+    slider_automate(slider121); slider_automate(slider122); slider_automate(slider123);
+  );
+  gtkall = ncue > 0 && (1 <= ncue ? slider64 : 1) && (2 <= ncue ? slider65 : 1) && (3 <= ncue ? slider66 : 1) && (4 <= ncue ? slider67 : 1) && (5 <= ncue ? slider68 : 1) && (6 <= ncue ? slider69 : 1);
+  talk_btn(190, ycs + 32, 84, 22, "TALKBACK", gtkall) ? (
+    gtkv = gtkall ? 0 : 1;
+    slider64 = gtkv; slider65 = gtkv; slider66 = gtkv; slider67 = gtkv; slider68 = gtkv; slider69 = gtkv;
+    slider_automate(slider64); slider_automate(slider65); slider_automate(slider66);
+    slider_automate(slider67); slider_automate(slider68); slider_automate(slider69);
+  );
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 14;  gfx_y = ycs + 65;  gfx_drawstr("MASTER LEVEL");
+  v = hfader2(128, ycs + 60, 156, slider148, -60, 6, 0.1, 0, 90);
+  v != slider148 ? ( slider148 = v; slider_automate(slider148); );
+
+  // source for all six cues at once (lit when every cue is on that source)
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 14;  gfx_y = ycs + 88;  gfx_drawstr("SOURCE FOR ALL CUES");
+  btn(14, ycs + 102, 62, 20, "MIX", ncue > 0 && (1 <= ncue ? slider83 : 1) && (2 <= ncue ? slider88 : 1) && (3 <= ncue ? slider93 : 1) && (4 <= ncue ? slider98 : 1) && (5 <= ncue ? slider103 : 1) && (6 <= ncue ? slider108 : 1)) ? ( slider82 = 0; slider83 = 1; slider84 = 0; slider85 = 0; slider86 = 0; slider87 = 0; slider88 = 1; slider89 = 0; slider90 = 0; slider91 = 0; slider92 = 0; slider93 = 1; slider94 = 0; slider95 = 0; slider96 = 0; slider97 = 0; slider98 = 1; slider99 = 0; slider100 = 0; slider101 = 0; slider102 = 0; slider103 = 1; slider104 = 0; slider105 = 0; slider106 = 0; slider107 = 0; slider108 = 1; slider109 = 0; slider110 = 0; slider111 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); );
+  btn(80, ycs + 102, 62, 20, "CUE", ncue > 0 && (1 <= ncue ? slider82 : 1) && (2 <= ncue ? slider87 : 1) && (3 <= ncue ? slider92 : 1) && (4 <= ncue ? slider97 : 1) && (5 <= ncue ? slider102 : 1) && (6 <= ncue ? slider107 : 1)) ? ( slider82 = 1; slider83 = 0; slider84 = 0; slider85 = 0; slider86 = 0; slider87 = 1; slider88 = 0; slider89 = 0; slider90 = 0; slider91 = 0; slider92 = 1; slider93 = 0; slider94 = 0; slider95 = 0; slider96 = 0; slider97 = 1; slider98 = 0; slider99 = 0; slider100 = 0; slider101 = 0; slider102 = 1; slider103 = 0; slider104 = 0; slider105 = 0; slider106 = 0; slider107 = 1; slider108 = 0; slider109 = 0; slider110 = 0; slider111 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); );
+  1 <= next ? ( btn(146, ycs + 102, 62, 20, "EXT 1", ncue > 0 && (1 <= ncue ? slider84 : 1) && (2 <= ncue ? slider89 : 1) && (3 <= ncue ? slider94 : 1) && (4 <= ncue ? slider99 : 1) && (5 <= ncue ? slider104 : 1) && (6 <= ncue ? slider109 : 1)) ? ( slider82 = 0; slider83 = 0; slider84 = 1; slider85 = 0; slider86 = 0; slider87 = 0; slider88 = 0; slider89 = 1; slider90 = 0; slider91 = 0; slider92 = 0; slider93 = 0; slider94 = 1; slider95 = 0; slider96 = 0; slider97 = 0; slider98 = 0; slider99 = 1; slider100 = 0; slider101 = 0; slider102 = 0; slider103 = 0; slider104 = 1; slider105 = 0; slider106 = 0; slider107 = 0; slider108 = 0; slider109 = 1; slider110 = 0; slider111 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+  2 <= next ? ( btn(212, ycs + 102, 62, 20, "EXT 2", ncue > 0 && (1 <= ncue ? slider85 : 1) && (2 <= ncue ? slider90 : 1) && (3 <= ncue ? slider95 : 1) && (4 <= ncue ? slider100 : 1) && (5 <= ncue ? slider105 : 1) && (6 <= ncue ? slider110 : 1)) ? ( slider82 = 0; slider83 = 0; slider84 = 0; slider85 = 1; slider86 = 0; slider87 = 0; slider88 = 0; slider89 = 0; slider90 = 1; slider91 = 0; slider92 = 0; slider93 = 0; slider94 = 0; slider95 = 1; slider96 = 0; slider97 = 0; slider98 = 0; slider99 = 0; slider100 = 1; slider101 = 0; slider102 = 0; slider103 = 0; slider104 = 0; slider105 = 1; slider106 = 0; slider107 = 0; slider108 = 0; slider109 = 0; slider110 = 1; slider111 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+  3 <= next ? ( btn(278, ycs + 102, 62, 20, "EXT 3", ncue > 0 && (1 <= ncue ? slider86 : 1) && (2 <= ncue ? slider91 : 1) && (3 <= ncue ? slider96 : 1) && (4 <= ncue ? slider101 : 1) && (5 <= ncue ? slider106 : 1) && (6 <= ncue ? slider111 : 1)) ? ( slider82 = 0; slider83 = 0; slider84 = 0; slider85 = 0; slider86 = 1; slider87 = 0; slider88 = 0; slider89 = 0; slider90 = 0; slider91 = 1; slider92 = 0; slider93 = 0; slider94 = 0; slider95 = 0; slider96 = 1; slider97 = 0; slider98 = 0; slider99 = 0; slider100 = 0; slider101 = 1; slider102 = 0; slider103 = 0; slider104 = 0; slider105 = 0; slider106 = 1; slider107 = 0; slider108 = 0; slider109 = 0; slider110 = 0; slider111 = 1; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+);
+
+// ================= CUE 1-6 (sub-sections, shown while CUES is open) =================
+
+(cuo && 1 <= ncue) ? (
+section_header(10, yc1, 340, 22, "CUE 1", slider76) ?
+  ( slider76 = !slider76; slider_automate(slider76); );
+sprintf(#cs, "%.1f dB", slider56);
+!slider118 ? sprintf(#cs, "OFF");
+(slider64 && slider133) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc1 + 5;
+gfx_drawstr(#cs);
+co1 ? (
+  v = fader(292, yc1 + 52, yc1 + 132, "LEVEL", slider56, -60, 6, 0.1, 0, 51);
+  v != slider56 ? ( slider56 = v; slider_automate(slider56); );
+  vbar(328, yc1 + 52, yc1 + 132, 8, mem[260]);
+  vbar(338, yc1 + 52, yc1 + 132, 8, mem[261]);
+
+  // cue on/off
+  btn(114, yc1 + 36, 84, 22, "CUE ON", slider118) ? ( slider118 = !slider118; slider_automate(slider118); );
+  talk_btn(114, yc1 + 128, 84, 22, "TALKBACK", slider64) ? ( slider64 = !slider64; slider_automate(slider64); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc1 + 70, 40, 22, "TALK", slider133) ? ( slider133 = !slider133; slider_automate(slider133); );
+  v = hfader2(160, yc1 + 70, 70, slider70, -60, 12, 0.1, 0, 61);
+  v != slider70 ? ( slider70 = v; slider_automate(slider70); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc1 + 100, 40, 22, "DIM", slider124) ? ( slider124 = !slider124; slider_automate(slider124); );
+  v = hfader2(160, yc1 + 100, 70, slider112, -60, 0, 0.5, -12, 71);
+  v != slider112 ? ( slider112 = v; slider_automate(slider112); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc1 + 34,  96, 1);
+  gfx_rect(8,   yc1 + 156, 96, 1);
+  gfx_rect(8,   yc1 + 34,  1,  123);
+  gfx_rect(103, yc1 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc1 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc1 + 28;  gfx_drawstr("Source");
+  btn(14, yc1 + 44, 84, 20, "MIX", slider83) ? ( slider82 = 0; slider83 = 1; slider84 = 0; slider85 = 0; slider86 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); );
+  btn(14, yc1 + 66, 84, 20, "CUE", slider82) ? ( slider82 = 1; slider83 = 0; slider84 = 0; slider85 = 0; slider86 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); );
+  1 <= next ? ( btn(14, yc1 + 88, 84, 20, "EXT 1", slider84) ? ( slider82 = 0; slider83 = 0; slider84 = 1; slider85 = 0; slider86 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); ); );
+  2 <= next ? ( btn(14, yc1 + 110, 84, 20, "EXT 2", slider85) ? ( slider82 = 0; slider83 = 0; slider84 = 0; slider85 = 1; slider86 = 0; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); ); );
+  3 <= next ? ( btn(14, yc1 + 132, 84, 20, "EXT 3", slider86) ? ( slider82 = 0; slider83 = 0; slider84 = 0; slider85 = 0; slider86 = 1; slider_automate(slider82); slider_automate(slider83); slider_automate(slider84); slider_automate(slider85); slider_automate(slider86); ); );
+);
+);
+
+(cuo && 2 <= ncue) ? (
+section_header(10, yc2, 340, 22, "CUE 2", slider77) ?
+  ( slider77 = !slider77; slider_automate(slider77); );
+sprintf(#cs, "%.1f dB", slider57);
+!slider119 ? sprintf(#cs, "OFF");
+(slider65 && slider134) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc2 + 5;
+gfx_drawstr(#cs);
+co2 ? (
+  v = fader(292, yc2 + 52, yc2 + 132, "LEVEL", slider57, -60, 6, 0.1, 0, 52);
+  v != slider57 ? ( slider57 = v; slider_automate(slider57); );
+  vbar(328, yc2 + 52, yc2 + 132, 8, mem[262]);
+  vbar(338, yc2 + 52, yc2 + 132, 8, mem[263]);
+
+  // cue on/off
+  btn(114, yc2 + 36, 84, 22, "CUE ON", slider119) ? ( slider119 = !slider119; slider_automate(slider119); );
+  talk_btn(114, yc2 + 128, 84, 22, "TALKBACK", slider65) ? ( slider65 = !slider65; slider_automate(slider65); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc2 + 70, 40, 22, "TALK", slider134) ? ( slider134 = !slider134; slider_automate(slider134); );
+  v = hfader2(160, yc2 + 70, 70, slider71, -60, 12, 0.1, 0, 62);
+  v != slider71 ? ( slider71 = v; slider_automate(slider71); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc2 + 100, 40, 22, "DIM", slider125) ? ( slider125 = !slider125; slider_automate(slider125); );
+  v = hfader2(160, yc2 + 100, 70, slider113, -60, 0, 0.5, -12, 72);
+  v != slider113 ? ( slider113 = v; slider_automate(slider113); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc2 + 34,  96, 1);
+  gfx_rect(8,   yc2 + 156, 96, 1);
+  gfx_rect(8,   yc2 + 34,  1,  123);
+  gfx_rect(103, yc2 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc2 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc2 + 28;  gfx_drawstr("Source");
+  btn(14, yc2 + 44, 84, 20, "MIX", slider88) ? ( slider87 = 0; slider88 = 1; slider89 = 0; slider90 = 0; slider91 = 0; slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); );
+  btn(14, yc2 + 66, 84, 20, "CUE", slider87) ? ( slider87 = 1; slider88 = 0; slider89 = 0; slider90 = 0; slider91 = 0; slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); );
+  1 <= next ? ( btn(14, yc2 + 88, 84, 20, "EXT 1", slider89) ? ( slider87 = 0; slider88 = 0; slider89 = 1; slider90 = 0; slider91 = 0; slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); ); );
+  2 <= next ? ( btn(14, yc2 + 110, 84, 20, "EXT 2", slider90) ? ( slider87 = 0; slider88 = 0; slider89 = 0; slider90 = 1; slider91 = 0; slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); ); );
+  3 <= next ? ( btn(14, yc2 + 132, 84, 20, "EXT 3", slider91) ? ( slider87 = 0; slider88 = 0; slider89 = 0; slider90 = 0; slider91 = 1; slider_automate(slider87); slider_automate(slider88); slider_automate(slider89); slider_automate(slider90); slider_automate(slider91); ); );
+);
+);
+
+(cuo && 3 <= ncue) ? (
+section_header(10, yc3, 340, 22, "CUE 3", slider78) ?
+  ( slider78 = !slider78; slider_automate(slider78); );
+sprintf(#cs, "%.1f dB", slider58);
+!slider120 ? sprintf(#cs, "OFF");
+(slider66 && slider135) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc3 + 5;
+gfx_drawstr(#cs);
+co3 ? (
+  v = fader(292, yc3 + 52, yc3 + 132, "LEVEL", slider58, -60, 6, 0.1, 0, 53);
+  v != slider58 ? ( slider58 = v; slider_automate(slider58); );
+  vbar(328, yc3 + 52, yc3 + 132, 8, mem[264]);
+  vbar(338, yc3 + 52, yc3 + 132, 8, mem[265]);
+
+  // cue on/off
+  btn(114, yc3 + 36, 84, 22, "CUE ON", slider120) ? ( slider120 = !slider120; slider_automate(slider120); );
+  talk_btn(114, yc3 + 128, 84, 22, "TALKBACK", slider66) ? ( slider66 = !slider66; slider_automate(slider66); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc3 + 70, 40, 22, "TALK", slider135) ? ( slider135 = !slider135; slider_automate(slider135); );
+  v = hfader2(160, yc3 + 70, 70, slider72, -60, 12, 0.1, 0, 63);
+  v != slider72 ? ( slider72 = v; slider_automate(slider72); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc3 + 100, 40, 22, "DIM", slider126) ? ( slider126 = !slider126; slider_automate(slider126); );
+  v = hfader2(160, yc3 + 100, 70, slider114, -60, 0, 0.5, -12, 73);
+  v != slider114 ? ( slider114 = v; slider_automate(slider114); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc3 + 34,  96, 1);
+  gfx_rect(8,   yc3 + 156, 96, 1);
+  gfx_rect(8,   yc3 + 34,  1,  123);
+  gfx_rect(103, yc3 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc3 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc3 + 28;  gfx_drawstr("Source");
+  btn(14, yc3 + 44, 84, 20, "MIX", slider93) ? ( slider92 = 0; slider93 = 1; slider94 = 0; slider95 = 0; slider96 = 0; slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); );
+  btn(14, yc3 + 66, 84, 20, "CUE", slider92) ? ( slider92 = 1; slider93 = 0; slider94 = 0; slider95 = 0; slider96 = 0; slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); );
+  1 <= next ? ( btn(14, yc3 + 88, 84, 20, "EXT 1", slider94) ? ( slider92 = 0; slider93 = 0; slider94 = 1; slider95 = 0; slider96 = 0; slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); ); );
+  2 <= next ? ( btn(14, yc3 + 110, 84, 20, "EXT 2", slider95) ? ( slider92 = 0; slider93 = 0; slider94 = 0; slider95 = 1; slider96 = 0; slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); ); );
+  3 <= next ? ( btn(14, yc3 + 132, 84, 20, "EXT 3", slider96) ? ( slider92 = 0; slider93 = 0; slider94 = 0; slider95 = 0; slider96 = 1; slider_automate(slider92); slider_automate(slider93); slider_automate(slider94); slider_automate(slider95); slider_automate(slider96); ); );
+);
+);
+
+(cuo && 4 <= ncue) ? (
+section_header(10, yc4, 340, 22, "CUE 4", slider79) ?
+  ( slider79 = !slider79; slider_automate(slider79); );
+sprintf(#cs, "%.1f dB", slider59);
+!slider121 ? sprintf(#cs, "OFF");
+(slider67 && slider136) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc4 + 5;
+gfx_drawstr(#cs);
+co4 ? (
+  v = fader(292, yc4 + 52, yc4 + 132, "LEVEL", slider59, -60, 6, 0.1, 0, 54);
+  v != slider59 ? ( slider59 = v; slider_automate(slider59); );
+  vbar(328, yc4 + 52, yc4 + 132, 8, mem[266]);
+  vbar(338, yc4 + 52, yc4 + 132, 8, mem[267]);
+
+  // cue on/off
+  btn(114, yc4 + 36, 84, 22, "CUE ON", slider121) ? ( slider121 = !slider121; slider_automate(slider121); );
+  talk_btn(114, yc4 + 128, 84, 22, "TALKBACK", slider67) ? ( slider67 = !slider67; slider_automate(slider67); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc4 + 70, 40, 22, "TALK", slider136) ? ( slider136 = !slider136; slider_automate(slider136); );
+  v = hfader2(160, yc4 + 70, 70, slider73, -60, 12, 0.1, 0, 64);
+  v != slider73 ? ( slider73 = v; slider_automate(slider73); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc4 + 100, 40, 22, "DIM", slider127) ? ( slider127 = !slider127; slider_automate(slider127); );
+  v = hfader2(160, yc4 + 100, 70, slider115, -60, 0, 0.5, -12, 74);
+  v != slider115 ? ( slider115 = v; slider_automate(slider115); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc4 + 34,  96, 1);
+  gfx_rect(8,   yc4 + 156, 96, 1);
+  gfx_rect(8,   yc4 + 34,  1,  123);
+  gfx_rect(103, yc4 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc4 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc4 + 28;  gfx_drawstr("Source");
+  btn(14, yc4 + 44, 84, 20, "MIX", slider98) ? ( slider97 = 0; slider98 = 1; slider99 = 0; slider100 = 0; slider101 = 0; slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); );
+  btn(14, yc4 + 66, 84, 20, "CUE", slider97) ? ( slider97 = 1; slider98 = 0; slider99 = 0; slider100 = 0; slider101 = 0; slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); );
+  1 <= next ? ( btn(14, yc4 + 88, 84, 20, "EXT 1", slider99) ? ( slider97 = 0; slider98 = 0; slider99 = 1; slider100 = 0; slider101 = 0; slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); ); );
+  2 <= next ? ( btn(14, yc4 + 110, 84, 20, "EXT 2", slider100) ? ( slider97 = 0; slider98 = 0; slider99 = 0; slider100 = 1; slider101 = 0; slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); ); );
+  3 <= next ? ( btn(14, yc4 + 132, 84, 20, "EXT 3", slider101) ? ( slider97 = 0; slider98 = 0; slider99 = 0; slider100 = 0; slider101 = 1; slider_automate(slider97); slider_automate(slider98); slider_automate(slider99); slider_automate(slider100); slider_automate(slider101); ); );
+);
+);
+
+(cuo && 5 <= ncue) ? (
+section_header(10, yc5, 340, 22, "CUE 5", slider80) ?
+  ( slider80 = !slider80; slider_automate(slider80); );
+sprintf(#cs, "%.1f dB", slider60);
+!slider122 ? sprintf(#cs, "OFF");
+(slider68 && slider137) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc5 + 5;
+gfx_drawstr(#cs);
+co5 ? (
+  v = fader(292, yc5 + 52, yc5 + 132, "LEVEL", slider60, -60, 6, 0.1, 0, 55);
+  v != slider60 ? ( slider60 = v; slider_automate(slider60); );
+  vbar(328, yc5 + 52, yc5 + 132, 8, mem[268]);
+  vbar(338, yc5 + 52, yc5 + 132, 8, mem[269]);
+
+  // cue on/off
+  btn(114, yc5 + 36, 84, 22, "CUE ON", slider122) ? ( slider122 = !slider122; slider_automate(slider122); );
+  talk_btn(114, yc5 + 128, 84, 22, "TALKBACK", slider68) ? ( slider68 = !slider68; slider_automate(slider68); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc5 + 70, 40, 22, "TALK", slider137) ? ( slider137 = !slider137; slider_automate(slider137); );
+  v = hfader2(160, yc5 + 70, 70, slider74, -60, 12, 0.1, 0, 65);
+  v != slider74 ? ( slider74 = v; slider_automate(slider74); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc5 + 100, 40, 22, "DIM", slider128) ? ( slider128 = !slider128; slider_automate(slider128); );
+  v = hfader2(160, yc5 + 100, 70, slider116, -60, 0, 0.5, -12, 75);
+  v != slider116 ? ( slider116 = v; slider_automate(slider116); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc5 + 34,  96, 1);
+  gfx_rect(8,   yc5 + 156, 96, 1);
+  gfx_rect(8,   yc5 + 34,  1,  123);
+  gfx_rect(103, yc5 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc5 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc5 + 28;  gfx_drawstr("Source");
+  btn(14, yc5 + 44, 84, 20, "MIX", slider103) ? ( slider102 = 0; slider103 = 1; slider104 = 0; slider105 = 0; slider106 = 0; slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); );
+  btn(14, yc5 + 66, 84, 20, "CUE", slider102) ? ( slider102 = 1; slider103 = 0; slider104 = 0; slider105 = 0; slider106 = 0; slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); );
+  1 <= next ? ( btn(14, yc5 + 88, 84, 20, "EXT 1", slider104) ? ( slider102 = 0; slider103 = 0; slider104 = 1; slider105 = 0; slider106 = 0; slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); ); );
+  2 <= next ? ( btn(14, yc5 + 110, 84, 20, "EXT 2", slider105) ? ( slider102 = 0; slider103 = 0; slider104 = 0; slider105 = 1; slider106 = 0; slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); ); );
+  3 <= next ? ( btn(14, yc5 + 132, 84, 20, "EXT 3", slider106) ? ( slider102 = 0; slider103 = 0; slider104 = 0; slider105 = 0; slider106 = 1; slider_automate(slider102); slider_automate(slider103); slider_automate(slider104); slider_automate(slider105); slider_automate(slider106); ); );
+);
+);
+
+(cuo && 6 <= ncue) ? (
+section_header(10, yc6, 340, 22, "CUE 6", slider81) ?
+  ( slider81 = !slider81; slider_automate(slider81); );
+sprintf(#cs, "%.1f dB", slider61);
+!slider123 ? sprintf(#cs, "OFF");
+(slider69 && slider138) ? strcat(#cs, "   TALK");
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#cs, cw0, ch0);
+gfx_x = 10 + 340 - 10 - cw0;  gfx_y = yc6 + 5;
+gfx_drawstr(#cs);
+co6 ? (
+  v = fader(292, yc6 + 52, yc6 + 132, "LEVEL", slider61, -60, 6, 0.1, 0, 56);
+  v != slider61 ? ( slider61 = v; slider_automate(slider61); );
+  vbar(328, yc6 + 52, yc6 + 132, 8, mem[270]);
+  vbar(338, yc6 + 52, yc6 + 132, 8, mem[271]);
+
+  // cue on/off
+  btn(114, yc6 + 36, 84, 22, "CUE ON", slider123) ? ( slider123 = !slider123; slider_automate(slider123); );
+  talk_btn(114, yc6 + 128, 84, 22, "TALKBACK", slider69) ? ( slider69 = !slider69; slider_automate(slider69); );
+
+  // TALK = talkback enabled for this cue; the big TALKBACK button above is the live on/off
+  btn(114, yc6 + 70, 40, 22, "TALK", slider138) ? ( slider138 = !slider138; slider_automate(slider138); );
+  v = hfader2(160, yc6 + 70, 70, slider75, -60, 12, 0.1, 0, 66);
+  v != slider75 ? ( slider75 = v; slider_automate(slider75); );
+
+  // talkback dim: on/off button and level (horizontal), applies to the cue while its talkback is on
+  btn(114, yc6 + 100, 40, 22, "DIM", slider129) ? ( slider129 = !slider129; slider_automate(slider129); );
+  v = hfader2(160, yc6 + 100, 70, slider117, -60, 0, 0.5, -12, 76);
+  v != slider117 ? ( slider117 = v; slider_automate(slider117); );
+
+  // source feeding this cue send (one at a time)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yc6 + 34,  96, 1);
+  gfx_rect(8,   yc6 + 156, 96, 1);
+  gfx_rect(8,   yc6 + 34,  1,  123);
+  gfx_rect(103, yc6 + 34,  1,  123);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yc6 + 28, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yc6 + 28;  gfx_drawstr("Source");
+  btn(14, yc6 + 44, 84, 20, "MIX", slider108) ? ( slider107 = 0; slider108 = 1; slider109 = 0; slider110 = 0; slider111 = 0; slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); );
+  btn(14, yc6 + 66, 84, 20, "CUE", slider107) ? ( slider107 = 1; slider108 = 0; slider109 = 0; slider110 = 0; slider111 = 0; slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); );
+  1 <= next ? ( btn(14, yc6 + 88, 84, 20, "EXT 1", slider109) ? ( slider107 = 0; slider108 = 0; slider109 = 1; slider110 = 0; slider111 = 0; slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+  2 <= next ? ( btn(14, yc6 + 110, 84, 20, "EXT 2", slider110) ? ( slider107 = 0; slider108 = 0; slider109 = 0; slider110 = 1; slider111 = 0; slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+  3 <= next ? ( btn(14, yc6 + 132, 84, 20, "EXT 3", slider111) ? ( slider107 = 0; slider108 = 0; slider109 = 0; slider110 = 0; slider111 = 1; slider_automate(slider107); slider_automate(slider108); slider_automate(slider109); slider_automate(slider110); slider_automate(slider111); ); );
+);
+);
+
+// ================= STUDIO MONITORS SECTION (expandable) =================
+section_header(10, yst, 340, 22, "STUDIO MONITORS", slider132) ?
+  ( slider132 = !slider132; slider_automate(slider132); );
+
+// summary on the header bar: current source and level
+ssrc2 = slider131 | 0;
+ssrc2 == 0 ? strcpy(#stn, "MIX") : (ssrc2 <= 6 ? sprintf(#stn, "CUE %d", ssrc2) : sprintf(#stn, "EXT %d", ssrc2 - 6));
+sprintf(#sts, "%s   %.1f dB", #stn, slider130);
+gfx_set(0.7, 0.7, 0.7);
+gfx_measurestr(#sts, stw0, sth0);
+gfx_x = 10 + 340 - 10 - stw0;  gfx_y = yst + 5;
+gfx_drawstr(#sts);
+
+sto ? (
+  // sources in two columns (MIX + CUE 1-6 on the left, EXT 1-6 on the right), inside a thin border titled Source
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yt + 6,   188, 1);
+  gfx_rect(8,   yt + 198, 188, 1);
+  gfx_rect(8,   yt + 6,   1,   193);
+  gfx_rect(195, yt + 6,   1,   193);
+  gfx_measurestr("Source", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yt, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yt;  gfx_drawstr("Source");
+  btn(12,  yt + 14 + 0*26, 88, 24, "MIX", slider131 == 0) ? ( slider131 = 0; slider_automate(slider131); );
+  1 <= ncue ? ( btn(12,  yt + 14 + 1*26, 88, 24, "CUE 1", slider131 == 1) ? ( slider131 = 1; slider_automate(slider131); ); );
+  2 <= ncue ? ( btn(12,  yt + 14 + 2*26, 88, 24, "CUE 2", slider131 == 2) ? ( slider131 = 2; slider_automate(slider131); ); );
+  3 <= ncue ? ( btn(12,  yt + 14 + 3*26, 88, 24, "CUE 3", slider131 == 3) ? ( slider131 = 3; slider_automate(slider131); ); );
+  4 <= ncue ? ( btn(12,  yt + 14 + 4*26, 88, 24, "CUE 4", slider131 == 4) ? ( slider131 = 4; slider_automate(slider131); ); );
+  5 <= ncue ? ( btn(12,  yt + 14 + 5*26, 88, 24, "CUE 5", slider131 == 5) ? ( slider131 = 5; slider_automate(slider131); ); );
+  6 <= ncue ? ( btn(12,  yt + 14 + 6*26, 88, 24, "CUE 6", slider131 == 6) ? ( slider131 = 6; slider_automate(slider131); ); );
+  1 <= next ? ( btn(104, yt + 14 + 1*26, 88, 24, "EXT 1", slider131 == 7) ? ( slider131 = 7; slider_automate(slider131); ); );
+  2 <= next ? ( btn(104, yt + 14 + 2*26, 88, 24, "EXT 2", slider131 == 8) ? ( slider131 = 8; slider_automate(slider131); ); );
+  3 <= next ? ( btn(104, yt + 14 + 3*26, 88, 24, "EXT 3", slider131 == 9) ? ( slider131 = 9; slider_automate(slider131); ); );
+  4 <= next ? ( btn(104, yt + 14 + 4*26, 88, 24, "EXT 4", slider131 == 10) ? ( slider131 = 10; slider_automate(slider131); ); );
+  5 <= next ? ( btn(104, yt + 14 + 5*26, 88, 24, "EXT 5", slider131 == 11) ? ( slider131 = 11; slider_automate(slider131); ); );
+  6 <= next ? ( btn(104, yt + 14 + 6*26, 88, 24, "EXT 6", slider131 == 12) ? ( slider131 = 12; slider_automate(slider131); ); );
+
+  // studio monitors level knob
+  kstyle = 1;
+  v = knob(252, yt + 72, 28, "LEVEL", slider130, -60, 6, -20, 34);
+  kstyle = 0;
+  v != slider130 ? ( slider130 = v; slider_automate(slider130); );
+  // DIM stacked over MUTE, right under the level control
+  btn(220, yt + 146, 64, 22, "DIM",  slider146) ? ( slider146 = !slider146; slider_automate(slider146); );
+  btn(220, yt + 170, 64, 22, "MUTE", slider145) ? ( slider145 = !slider145; slider_automate(slider145); );
+
+  // vertical stereo output meter on the right
+  vbar(308, yt + 10, yt + 168, 16, mem[284]);
+  vbar(328, yt + 10, yt + 168, 16, mem[285]);
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_x = 304;  gfx_y = yt + 170;  gfx_drawstr("STUDIO");
+);
+
+// ================= BASS MANAGEMENT SECTION (expandable, vertical) =================
+section_header(10, yb, 340, 22, "BASS MANAGEMENT", slider38) ?
+  ( slider38 = !slider38; slider_automate(slider38); );
+gfx_set(0.7, 0.7, 0.7);
+slider7 ? ( gfx_x = 328; gfx_y = yb + 5; gfx_drawstr("ON"); )
+        : ( gfx_x = 324; gfx_y = yb + 5; gfx_drawstr("OFF"); );
+
+bmo ? (
+  rb = yb + 28;
+  // one row per channel: bass management on/off, then that channel's crossover frequency
+  btn(12, rb + 0*26, 56, 22, "L", slider12) ? ( slider12 = !slider12; slider_automate(slider12); );
+  v = valfield(76, rb + 0*26, 64, 22, slider23, 40, 200, 80, 1, 0, 101);
+  v != slider23 ? ( slider23 = v; slider_automate(slider23); );
+  btn(12, rb + 1*26, 56, 22, "R", slider13) ? ( slider13 = !slider13; slider_automate(slider13); );
+  v = valfield(76, rb + 1*26, 64, 22, slider24, 40, 200, 80, 1, 0, 102);
+  v != slider24 ? ( slider24 = v; slider_automate(slider24); );
+  btn(12, rb + 2*26, 56, 22, "C", slider14) ? ( slider14 = !slider14; slider_automate(slider14); );
+  v = valfield(76, rb + 2*26, 64, 22, slider25, 40, 200, 80, 1, 0, 103);
+  v != slider25 ? ( slider25 = v; slider_automate(slider25); );
+  btn(12, rb + 3*26, 56, 22, "Lss", slider15) ? ( slider15 = !slider15; slider_automate(slider15); );
+  v = valfield(76, rb + 3*26, 64, 22, slider26, 40, 200, 80, 1, 0, 104);
+  v != slider26 ? ( slider26 = v; slider_automate(slider26); );
+  btn(12, rb + 4*26, 56, 22, "Rss", slider16) ? ( slider16 = !slider16; slider_automate(slider16); );
+  v = valfield(76, rb + 4*26, 64, 22, slider27, 40, 200, 80, 1, 0, 105);
+  v != slider27 ? ( slider27 = v; slider_automate(slider27); );
+  btn(12, rb + 5*26, 56, 22, "Lrs", slider17) ? ( slider17 = !slider17; slider_automate(slider17); );
+  v = valfield(76, rb + 5*26, 64, 22, slider28, 40, 200, 80, 1, 0, 106);
+  v != slider28 ? ( slider28 = v; slider_automate(slider28); );
+  btn(12, rb + 6*26, 56, 22, "Rrs", slider18) ? ( slider18 = !slider18; slider_automate(slider18); );
+  v = valfield(76, rb + 6*26, 64, 22, slider29, 40, 200, 80, 1, 0, 107);
+  v != slider29 ? ( slider29 = v; slider_automate(slider29); );
+  btn(12, rb + 7*26, 56, 22, "Ltf", slider19) ? ( slider19 = !slider19; slider_automate(slider19); );
+  v = valfield(76, rb + 7*26, 64, 22, slider30, 40, 200, 80, 1, 0, 108);
+  v != slider30 ? ( slider30 = v; slider_automate(slider30); );
+  btn(12, rb + 8*26, 56, 22, "Rtf", slider20) ? ( slider20 = !slider20; slider_automate(slider20); );
+  v = valfield(76, rb + 8*26, 64, 22, slider31, 40, 200, 80, 1, 0, 109);
+  v != slider31 ? ( slider31 = v; slider_automate(slider31); );
+  btn(12, rb + 9*26, 56, 22, "Ltr", slider21) ? ( slider21 = !slider21; slider_automate(slider21); );
+  v = valfield(76, rb + 9*26, 64, 22, slider32, 40, 200, 80, 1, 0, 110);
+  v != slider32 ? ( slider32 = v; slider_automate(slider32); );
+  btn(12, rb + 10*26, 56, 22, "Rtr", slider22) ? ( slider22 = !slider22; slider_automate(slider22); );
+  v = valfield(76, rb + 10*26, 64, 22, slider33, 40, 200, 80, 1, 0, 111);
+  v != slider33 ? ( slider33 = v; slider_automate(slider33); );
+
+  // bass management on/off, then the global bass / output settings
+  btn(152, rb, 196, 24, "BASS MANAGEMENT", slider7) ? ( slider7 = !slider7; slider_automate(slider7); );
+  rs = rb + 30;
+
+  gfx_set(0.65, 0.65, 0.65);
+  gfx_x = 152;  gfx_y = rs + 4;  gfx_drawstr("BASS SENT TO");
+  btn(152, rs + 22, 96, 24, "Mono (both)", slider10 == 0) ? ( slider10 = 0; slider_automate(slider10); );
+  btn(252, rs + 22, 96, 24, "LFE1 only",   slider10 == 1) ? ( slider10 = 1; slider_automate(slider10); );
+  btn(152, rs + 50, 96, 24, "LFE2 only",   slider10 == 2) ? ( slider10 = 2; slider_automate(slider10); );
+  btn(252, rs + 50, 96, 24, "Stereo L/R",  slider10 == 3) ? ( slider10 = 3; slider_automate(slider10); );
+
+  gfx_set(0.65, 0.65, 0.65);
+  gfx_x = 152;  gfx_y = rs + 91;  gfx_drawstr("LFE IN");
+  v = valfield(292, rs + 86, 56, 22, slider11, -12, 12, 0, 0.5, 1, 120);
+  v != slider11 ? ( slider11 = v; slider_automate(slider11); );
+
+
+  // SUB level out, directly under LFE IN TRIM
+  gfx_set(0.65, 0.65, 0.65);
+  gfx_x = 152;  gfx_y = rs + 117;  gfx_drawstr("SUB OUT");
+  v = valfield(292, rs + 112, 56, 22, slider9, -24, 12, 0, 0.5, 1, 125);
+  v != slider9 ? ( slider9 = v; slider_automate(slider9); );
+
+
+  // master on/off for every channel's bass management, under the channel names
+  gbma = slider12 && slider13 && slider14 && slider15 && slider16 && slider17 &&
+         slider18 && slider19 && slider20 && slider21 && slider22;
+  btn(12, rb + 11*26, 56, 22, "ALL", gbma) ? (
+    gnv = gbma ? 0 : 1;
+    slider12 = gnv; slider13 = gnv; slider14 = gnv; slider15 = gnv; slider16 = gnv; slider17 = gnv;
+    slider18 = gnv; slider19 = gnv; slider20 = gnv; slider21 = gnv; slider22 = gnv;
+    slider_automate(slider12); slider_automate(slider13); slider_automate(slider14);
+    slider_automate(slider15); slider_automate(slider16); slider_automate(slider17);
+    slider_automate(slider18); slider_automate(slider19); slider_automate(slider20);
+    slider_automate(slider21); slider_automate(slider22);
+  );
+
+  // XO All: numeric field under the individual frequencies; sets every channel's crossover
+  v = valfield(76, rb + 11*26, 64, 22, slider8, 40, 200, 80, 1, 0, 130);
+  v != slider8 ? (
+    slider8 = v;
+    slider23 = v; slider24 = v; slider25 = v; slider26 = v; slider27 = v; slider28 = v;
+    slider29 = v; slider30 = v; slider31 = v; slider32 = v; slider33 = v;
+    slider_automate(slider8);
+    slider_automate(slider23); slider_automate(slider24); slider_automate(slider25);
+    slider_automate(slider26); slider_automate(slider27); slider_automate(slider28);
+    slider_automate(slider29); slider_automate(slider30); slider_automate(slider31);
+    slider_automate(slider32); slider_automate(slider33);
+  );
+);
+
+
+// ================= ROUTING SECTION (expandable): counts, formats and plug-in start channels =================
+section_header(10, yr, 340, 22, "ROUTING", slider159) ?
+  ( slider159 = !slider159; slider_automate(slider159); );
+rto ? (
+  mdy = (6 - nmon) * 26;      // the Monitor box loses one line per monitor not in use
+  // outlined group: Monitor (height follows the number of monitors)
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yr + 38, 340, 1);
+  gfx_rect(8,   yr + 308 - mdy, 340, 1);
+  gfx_rect(8,   yr + 38, 1,   (308 - mdy) - 37);
+  gfx_rect(347, yr + 38, 1,   (308 - mdy) - 37);
+  gfx_measurestr("Monitor", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yr + 32, gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yr + 32;  gfx_drawstr("Monitor");
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 32;  gfx_y = (yr + 96) + 5;  gfx_drawstr("Monitor Outputs");
+  v = valfield(184, yr + 96, 66, 22, slider166, 1, 6, 6, 1, 2, 160);
+  v != slider166 ? ( slider166 = v; slider_automate(slider166); );
+  // column headings
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("Start", tw0, th0);  gfx_x = 217 - tw0 / 2;  gfx_y = yr + 54;  gfx_drawstr("Start");
+  gfx_measurestr("Count", tw0, th0);  gfx_x = 297 - tw0 / 2;  gfx_y = yr + 54;  gfx_drawstr("Count");
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 70) + 5;  gfx_drawstr("Mix Bus");
+  fmt_str(max(0, min(5, slider174 | 0)));
+  btn(84, yr + 70, 88, 22, #fnm, 0) ? (
+    r = dd_menu(max(0, min(5, slider174 | 0)));
+    r >= 0 ? ( slider174 = r; slider_automate(slider174); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 79, 166, yr + 79, 162, yr + 84);
+  v = valfield(184, yr + 70, 66, 22, slider149, 1, 64, 1, 1, 2, 170);
+  v != slider149 ? ( slider149 = v; slider_automate(slider149); );
+  sprintf(#cn, "%d", fmt_n(max(0, min(5, slider174 | 0))));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 70) + 5;  gfx_drawstr(#cn);
+  0 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 122) + 5;  gfx_drawstr("Mon 1");
+  fmt_str(mfmt(0));
+  btn(84, yr + 122, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(0));
+    r >= 0 ? ( slider167 = r; slider_automate(slider167); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 131, 166, yr + 131, 162, yr + 136);
+  v = valfield(184, yr + 122, 66, 22, slider34, 1, 64, 1, 1, 2, 171);
+  v != slider34 ? ( slider34 = v; slider_automate(slider34); );
+  sprintf(#cn, "%d", fmt_n(mfmt(0)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 122) + 5;  gfx_drawstr(#cn);
+  );
+  1 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 148) + 5;  gfx_drawstr("Mon 2");
+  fmt_str(mfmt(1));
+  btn(84, yr + 148, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(1));
+    r >= 0 ? ( slider168 = r; slider_automate(slider168); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 157, 166, yr + 157, 162, yr + 162);
+  v = valfield(184, yr + 148, 66, 22, slider35, 1, 64, 1, 1, 2, 172);
+  v != slider35 ? ( slider35 = v; slider_automate(slider35); );
+  sprintf(#cn, "%d", fmt_n(mfmt(1)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 148) + 5;  gfx_drawstr(#cn);
+  );
+  2 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 174) + 5;  gfx_drawstr("Mon 3");
+  fmt_str(mfmt(2));
+  btn(84, yr + 174, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(2));
+    r >= 0 ? ( slider169 = r; slider_automate(slider169); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 183, 166, yr + 183, 162, yr + 188);
+  v = valfield(184, yr + 174, 66, 22, slider36, 1, 64, 1, 1, 2, 173);
+  v != slider36 ? ( slider36 = v; slider_automate(slider36); );
+  sprintf(#cn, "%d", fmt_n(mfmt(2)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 174) + 5;  gfx_drawstr(#cn);
+  );
+  3 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 200) + 5;  gfx_drawstr("Mon 4");
+  fmt_str(mfmt(3));
+  btn(84, yr + 200, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(3));
+    r >= 0 ? ( slider170 = r; slider_automate(slider170); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 209, 166, yr + 209, 162, yr + 214);
+  v = valfield(184, yr + 200, 66, 22, slider37, 1, 64, 17, 1, 2, 174);
+  v != slider37 ? ( slider37 = v; slider_automate(slider37); );
+  sprintf(#cn, "%d", fmt_n(mfmt(3)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 200) + 5;  gfx_drawstr(#cn);
+  );
+  4 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 226) + 5;  gfx_drawstr("Mon 5");
+  fmt_str(mfmt(4));
+  btn(84, yr + 226, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(4));
+    r >= 0 ? ( slider171 = r; slider_automate(slider171); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 235, 166, yr + 235, 162, yr + 240);
+  v = valfield(184, yr + 226, 66, 22, slider139, 1, 64, 19, 1, 2, 175);
+  v != slider139 ? ( slider139 = v; slider_automate(slider139); );
+  sprintf(#cn, "%d", fmt_n(mfmt(4)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 226) + 5;  gfx_drawstr(#cn);
+  );
+  5 < nmon ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 252) + 5;  gfx_drawstr("Mon 6");
+  fmt_str(mfmt(5));
+  btn(84, yr + 252, 88, 22, #fnm, 0) ? (
+    r = dd_menu(mfmt(5));
+    r >= 0 ? ( slider172 = r; slider_automate(slider172); );
+  );
+  gfx_set(0.9, 0.9, 0.9);  gfx_triangle(158, yr + 261, 166, yr + 261, 162, yr + 266);
+  v = valfield(184, yr + 252, 66, 22, slider140, 1, 64, 21, 1, 2, 176);
+  v != slider140 ? ( slider140 = v; slider_automate(slider140); );
+  sprintf(#cn, "%d", fmt_n(mfmt(5)));
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 252) + 5;  gfx_drawstr(#cn);
+  );
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 278 - mdy) + 5;  gfx_drawstr("Subs");
+  v = valfield(184, yr + 278 - mdy, 66, 22, slider173, 1, 64, 4, 1, 2, 177);
+  v != slider173 ? ( slider173 = v; slider_automate(slider173); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 278 - mdy) + 5;  gfx_drawstr(#cn);
+  cdy = (6 - ncue) * 26;  edy = (6 - next) * 26;
+  // outlined group: Other outputs
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yr + 326 - (mdy), 340, 1);
+  gfx_rect(8,   yr + 492 - (mdy), 340, 1);
+  gfx_rect(8,   yr + 326 - (mdy), 1,   166 + 1);
+  gfx_rect(347, yr + 326 - (mdy), 1,   166 + 1);
+  gfx_measurestr("Other outputs", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yr + 320 - (mdy), gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yr + 320 - (mdy);  gfx_drawstr("Other outputs");
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("Start", tw0, th0);  gfx_x = 217 - tw0 / 2;  gfx_y = yr + 342 - (mdy);  gfx_drawstr("Start");
+  gfx_measurestr("Count", tw0, th0);  gfx_x = 297 - tw0 / 2;  gfx_y = yr + 342 - (mdy);  gfx_drawstr("Count");
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 358 - (mdy)) + 5;  gfx_drawstr("Headphones");
+  v = valfield(184, yr + 358 - (mdy), 66, 22, slider160, 1, 64, 15, 1, 2, 200);
+  v != slider160 ? ( slider160 = v; slider_automate(slider160); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 358 - (mdy)) + 5;  gfx_drawstr(#cn);
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 384 - (mdy)) + 5;  gfx_drawstr("Meter");
+  v = valfield(184, yr + 384 - (mdy), 66, 22, slider161, 1, 64, 23, 1, 2, 201);
+  v != slider161 ? ( slider161 = v; slider_automate(slider161); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 384 - (mdy)) + 5;  gfx_drawstr(#cn);
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 410 - (mdy)) + 5;  gfx_drawstr("Studio");
+  v = valfield(184, yr + 410 - (mdy), 66, 22, slider163, 1, 64, 63, 1, 2, 202);
+  v != slider163 ? ( slider163 = v; slider_automate(slider163); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 410 - (mdy)) + 5;  gfx_drawstr(#cn);
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 436 - (mdy)) + 5;  gfx_drawstr("Talkback in");
+  v = valfield(184, yr + 436 - (mdy), 66, 22, slider150, 1, 64, 15, 1, 2, 203);
+  v != slider150 ? ( slider150 = v; slider_automate(slider150); );
+  sprintf(#cn, "%d", 1);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 436 - (mdy)) + 5;  gfx_drawstr(#cn);
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 462 - (mdy)) + 5;  gfx_drawstr("Listen in");
+  v = valfield(184, yr + 462 - (mdy), 66, 22, slider151, 1, 64, 16, 1, 2, 204);
+  v != slider151 ? ( slider151 = v; slider_automate(slider151); );
+  sprintf(#cn, "%d", 1);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 462 - (mdy)) + 5;  gfx_drawstr(#cn);
+  // outlined group: Cue
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yr + 510 - (mdy), 340, 1);
+  gfx_rect(8,   yr + 728 - (mdy + cdy), 340, 1);
+  gfx_rect(8,   yr + 510 - (mdy), 1,   218 - cdy + 1);
+  gfx_rect(347, yr + 510 - (mdy), 1,   218 - cdy + 1);
+  gfx_measurestr("Cue", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yr + 504 - (mdy), gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yr + 504 - (mdy);  gfx_drawstr("Cue");
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 32;  gfx_y = (yr + 526 - (mdy)) + 5;  gfx_drawstr("Cue Outputs");
+  v = valfield(192, yr + 526 - (mdy), 66, 22, slider164, 0, 6, 6, 1, 2, 161);
+  v != slider164 ? ( slider164 = v; slider_automate(slider164); );
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("In", tw0, th0);  gfx_x = 149 - tw0 / 2;  gfx_y = yr + 552 - (mdy);  gfx_drawstr("In");
+  gfx_measurestr("Out", tw0, th0);  gfx_x = 225 - tw0 / 2;  gfx_y = yr + 552 - (mdy);  gfx_drawstr("Out");
+  gfx_measurestr("Count", tw0, th0);  gfx_x = 297 - tw0 / 2;  gfx_y = yr + 552 - (mdy);  gfx_drawstr("Count");
+  0 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 568 - (mdy)) + 5;  gfx_drawstr("Cue 1");
+  v = valfield(116, yr + 568 - (mdy), 66, 22, slider175, 1, 64, 17, 1, 2, 205);
+  v != slider175 ? ( slider175 = v; slider_automate(slider175); );
+  v = valfield(192, yr + 568 - (mdy), 66, 22, slider181, 1, 64, 49, 1, 2, 206);
+  v != slider181 ? ( slider181 = v; slider_automate(slider181); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 568 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  1 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 594 - (mdy)) + 5;  gfx_drawstr("Cue 2");
+  v = valfield(116, yr + 594 - (mdy), 66, 22, slider176, 1, 64, 19, 1, 2, 207);
+  v != slider176 ? ( slider176 = v; slider_automate(slider176); );
+  v = valfield(192, yr + 594 - (mdy), 66, 22, slider182, 1, 64, 51, 1, 2, 208);
+  v != slider182 ? ( slider182 = v; slider_automate(slider182); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 594 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  2 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 620 - (mdy)) + 5;  gfx_drawstr("Cue 3");
+  v = valfield(116, yr + 620 - (mdy), 66, 22, slider177, 1, 64, 21, 1, 2, 209);
+  v != slider177 ? ( slider177 = v; slider_automate(slider177); );
+  v = valfield(192, yr + 620 - (mdy), 66, 22, slider183, 1, 64, 53, 1, 2, 210);
+  v != slider183 ? ( slider183 = v; slider_automate(slider183); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 620 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  3 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 646 - (mdy)) + 5;  gfx_drawstr("Cue 4");
+  v = valfield(116, yr + 646 - (mdy), 66, 22, slider178, 1, 64, 23, 1, 2, 211);
+  v != slider178 ? ( slider178 = v; slider_automate(slider178); );
+  v = valfield(192, yr + 646 - (mdy), 66, 22, slider184, 1, 64, 55, 1, 2, 212);
+  v != slider184 ? ( slider184 = v; slider_automate(slider184); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 646 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  4 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 672 - (mdy)) + 5;  gfx_drawstr("Cue 5");
+  v = valfield(116, yr + 672 - (mdy), 66, 22, slider179, 1, 64, 25, 1, 2, 213);
+  v != slider179 ? ( slider179 = v; slider_automate(slider179); );
+  v = valfield(192, yr + 672 - (mdy), 66, 22, slider185, 1, 64, 57, 1, 2, 214);
+  v != slider185 ? ( slider185 = v; slider_automate(slider185); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 672 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  5 < ncue ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 698 - (mdy)) + 5;  gfx_drawstr("Cue 6");
+  v = valfield(116, yr + 698 - (mdy), 66, 22, slider180, 1, 64, 27, 1, 2, 215);
+  v != slider180 ? ( slider180 = v; slider_automate(slider180); );
+  v = valfield(192, yr + 698 - (mdy), 66, 22, slider186, 1, 64, 59, 1, 2, 216);
+  v != slider186 ? ( slider186 = v; slider_automate(slider186); );
+  sprintf(#cn, "%d", 2);
+  gfx_set(0.75, 0.75, 0.75);
+  gfx_measurestr(#cn, tw0, th0);
+  gfx_x = 297 - tw0 / 2;  gfx_y = (yr + 698 - (mdy)) + 5;  gfx_drawstr(#cn);
+  );
+  // outlined group: EXT
+  gfx_set(0.45, 0.45, 0.48);
+  gfx_rect(8,   yr + 746 - (mdy + cdy), 340, 1);
+  gfx_rect(8,   yr + 964 - (mdy + cdy + edy), 340, 1);
+  gfx_rect(8,   yr + 746 - (mdy + cdy), 1,   218 - edy + 1);
+  gfx_rect(347, yr + 746 - (mdy + cdy), 1,   218 - edy + 1);
+  gfx_measurestr("EXT", gtw, gth);
+  gfx_set(0.12, 0.12, 0.12);
+  gfx_rect(14, yr + 740 - (mdy + cdy), gtw + 8, 13);
+  gfx_set(0.8, 0.8, 0.8);
+  gfx_x = 18;  gfx_y = yr + 740 - (mdy + cdy);  gfx_drawstr("EXT");
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 32;  gfx_y = (yr + 762 - (mdy + cdy)) + 5;  gfx_drawstr("EXT Inputs");
+  v = valfield(184, yr + 762 - (mdy + cdy), 66, 22, slider165, 0, 6, 6, 1, 2, 162);
+  v != slider165 ? ( slider165 = v; slider_automate(slider165); );
+  gfx_set(0.6, 0.6, 0.6);
+  gfx_measurestr("Start", tw0, th0);  gfx_x = 217 - tw0 / 2;  gfx_y = yr + 788 - (mdy + cdy);  gfx_drawstr("Start");
+  gfx_measurestr("Count", tw0, th0);  gfx_x = 297 - tw0 / 2;  gfx_y = yr + 788 - (mdy + cdy);  gfx_drawstr("Count");
+  0 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 804 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 1");
+  v = valfield(184, yr + 804 - (mdy + cdy), 66, 22, slider153, 1, 64, 29, 1, 2, 217);
+  v != slider153 ? ( slider153 = v; slider_automate(slider153); );
+  v = valfield(264, yr + 804 - (mdy + cdy), 66, 22, slider187, 1, 14, 14, 1, 2, 231);
+  v != slider187 ? ( slider187 = v; slider_automate(slider187); );
+  );
+  1 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 830 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 2");
+  v = valfield(184, yr + 830 - (mdy + cdy), 66, 22, slider154, 1, 64, 43, 1, 2, 218);
+  v != slider154 ? ( slider154 = v; slider_automate(slider154); );
+  v = valfield(264, yr + 830 - (mdy + cdy), 66, 22, slider188, 1, 14, 2, 1, 2, 232);
+  v != slider188 ? ( slider188 = v; slider_automate(slider188); );
+  );
+  2 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 856 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 3");
+  v = valfield(184, yr + 856 - (mdy + cdy), 66, 22, slider155, 1, 64, 45, 1, 2, 219);
+  v != slider155 ? ( slider155 = v; slider_automate(slider155); );
+  v = valfield(264, yr + 856 - (mdy + cdy), 66, 22, slider189, 1, 14, 2, 1, 2, 233);
+  v != slider189 ? ( slider189 = v; slider_automate(slider189); );
+  );
+  3 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 882 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 4");
+  v = valfield(184, yr + 882 - (mdy + cdy), 66, 22, slider156, 1, 64, 47, 1, 2, 220);
+  v != slider156 ? ( slider156 = v; slider_automate(slider156); );
+  v = valfield(264, yr + 882 - (mdy + cdy), 66, 22, slider190, 1, 14, 2, 1, 2, 234);
+  v != slider190 ? ( slider190 = v; slider_automate(slider190); );
+  );
+  4 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 908 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 5");
+  v = valfield(184, yr + 908 - (mdy + cdy), 66, 22, slider157, 1, 64, 49, 1, 2, 221);
+  v != slider157 ? ( slider157 = v; slider_automate(slider157); );
+  v = valfield(264, yr + 908 - (mdy + cdy), 66, 22, slider191, 1, 14, 2, 1, 2, 235);
+  v != slider191 ? ( slider191 = v; slider_automate(slider191); );
+  );
+  5 < next ? (
+  gfx_set(0.85, 0.85, 0.85);
+  gfx_x = 22;  gfx_y = (yr + 934 - (mdy + cdy)) + 5;  gfx_drawstr("EXT 6");
+  v = valfield(184, yr + 934 - (mdy + cdy), 66, 22, slider158, 1, 64, 51, 1, 2, 222);
+  v != slider158 ? ( slider158 = v; slider_automate(slider158); );
+  v = valfield(264, yr + 934 - (mdy + cdy), 66, 22, slider192, 1, 14, 2, 1, 2, 236);
+  v != slider192 ? ( slider192 = v; slider_automate(slider192); );
+  );
+);
+
+last_cap = mouse_cap & 1;
